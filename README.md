@@ -1,3 +1,20 @@
+---
+license: cc-by-4.0
+language:
+  - en
+tags:
+  - Game
+  - Counter-Strike
+  - CS2
+  - Counter-Strike 2
+  - Video Game
+  - Cheat Detection
+  - Gameplay
+pretty_name: Counter-Strike 2 Cheat Detection
+size_categories:
+  - n<1K
+---
+
 # Counter Strike 2 Cheat Detection Dataset
 
 ## Overview
