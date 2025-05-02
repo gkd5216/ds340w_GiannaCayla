@@ -1,20 +1,3 @@
----
-license: cc-by-4.0
-language:
-  - en
-tags:
-  - Game
-  - Counter-Strike
-  - CS2
-  - Counter-Strike 2
-  - Video Game
-  - Cheat Detection
-  - Gameplay
-pretty_name: Counter-Strike 2 Cheat Detection
-size_categories:
-  - n<1K
----
-
 # Counter Strike 2 Cheat Detection Dataset
 
 ## Overview
@@ -25,11 +8,16 @@ The **CS2CD (Counter-Strike 2 Cheat Detection)** dataset is an anonymised datase
 
 The dataset is partitioned into data with at least one cheater present, and data with no cheaters present. 
 
-> ⚠️
-> Only files, containing at least one VAC(Valve Anti-cheat)-banned player, have been manually labelled and verified. Hence, **cheaters may be present in the data without cheaters**.
-> When examining a subset of NUMBER data points in the set of matches with no VAC-banned players, it was discovered that in NUMBER% of players in these matches were not presenting any cheater-like behaviour.
-> When examining a subset of NUMBER data points in the set of matches with with at least one VAC-banned players, it was discovered that in NUMBER% of players in these matches were not presenting any cheater-like behaviour[[TODO:CITE OUR PAPER]()]. This is possibly due to CS2 using [trust factor match making](https://help.steampowered.com/en/faqs/view/00EF-D679-C76A-C185).
-> Hence, it was decided, that resources were best spent with labeling data containing at least one VAC-banned player.
+<div style="border:1px solid #ccc; padding: 10px; border-radius: 5px; background-color: #fff3cd; color: #000;">
+  <p><strong style="color: #000">⚠️ Warning: </strong>Data containing no cheaters has not been verified</p>
+  <p>Only files, containing at least one VAC(Valve Anti-cheat)-banned player, have been manually labelled and verified. Hence, <strong style="color: #000">cheaters may be present in the data without cheaters</strong>.</p>
+  <p>When examining a subset containing 50 data points (demos) with no VAC-banned players, it was discovered that in 97.2% of players in these matches were not presenting any cheater-like behaviour. When examining a subset of 50 data points (demos) in the set of matches with with at least one VAC-banned player, it was discovered that the label precission of the "not cheater" label was 55.6%. This is possibly due to CS2 using <a href="https://help.steampowered.com/en/faqs/view/00EF-D679-C76A-C185" target="_blank" style="color: #007bff; text-decoration: underline;">trust factor match making</a>.</p>
+
+  <p>Hence, it was decided, that resources were best spent with labeling data containing at least one VAC-banned player.</p>
+
+  <p>For more information regarding the data collection see <a href="https://help.steampowered.com/en/faqs/view/00EF-D679-C76A-C185" target="_blank" style="color: #007bff; text-decoration: underline;">Counter-Strike 2 Game data collection with cheat labelling</a> by Mille Mei Zhen Loo & Gert Lužkov.</p>
+</div>
+
 
 ### Root folder
 
@@ -53,7 +41,6 @@ The following piece of code loads a single data point in the dataset. The result
 ```python
 import pandas as pd
 import json
-import os
 
 filepath = "Data/no_cheater_present/0"
 
@@ -61,7 +48,7 @@ filepath = "Data/no_cheater_present/0"
 match_0_ticks = pd.read_csv(filepath_or_buffer=filepath+".csv.gz", compression="gzip")
 
 # Loading json event data a list of tuples (str, pd.Dataframe)
-def json_2_eventlist(filepath:str) -&gt; list:   
+def json_2_eventlist(filepath:str) -> list[tuple[str, pd.DataFrame]]: 
     with open(filepath, "r") as f:
         json_data = json.load(f)
 
@@ -121,20 +108,20 @@ The following is the complete list of **data removed** from the dataset:
 - `networkid`
 - `PlayerID`
 - `address`
+- `name`
+- `user_name`
+- `victim_name`
+- `attacker_name`
+- `assister_name`
+- `chat_message`
 
 The following data is the complete list of **altered data** in the dataset:
 
-- `name`
-- `user_name`
-- `names`
 - `steamid`
 - `user_steamid`
-- `attacker_name`
 - `attacker_steamid`
-- `victim_name`
 - `victim_steamid`
 - `active_weapon_original_owner`
-- `assister_name`
 - `assister_steamid`
 - `approximate_spotted_by`
 
@@ -149,6 +136,7 @@ Data added from scraping process:
 
 - The dataset is formated in UTF-8 encoding.
 - Researchers should **cite this dataset appropriately** in publications
+- In the case that all players from a single team quits the match, a single bot is spawned to fill the empty team. This may result in kills where no steamid is present. This is due to the bot not having a steamid.
 
 ## Applications
 
