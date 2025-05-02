@@ -1,1509 +1,4 @@
 {
-    "round_officially_ended": [
-        {
-            "tick": 3371
-        },
-        {
-            "tick": 3371
-        }
-    ],
-    "player_disconnect": [
-        {
-            "name": "Player_3",
-            "reason": 2,
-            "tick": 2856,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3"
-        },
-        {
-            "name": "Player_5",
-            "reason": 2,
-            "tick": 4061,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        },
-        {
-            "name": "Player_8",
-            "reason": 2,
-            "tick": 4572,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "name": "Player_7",
-            "reason": 2,
-            "tick": 4699,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7"
-        },
-        {
-            "name": "Player_4",
-            "reason": 2,
-            "tick": 4699,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4"
-        },
-        {
-            "name": "Player_2",
-            "reason": 2,
-            "tick": 4699,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2"
-        },
-        {
-            "name": "Player_9",
-            "reason": 2,
-            "tick": 4699,
-            "user_name": "Player_9",
-            "user_steamid": "Player_9"
-        },
-        {
-            "name": "Player_10",
-            "reason": 2,
-            "tick": 4699,
-            "user_name": "Player_10",
-            "user_steamid": "Player_10"
-        },
-        {
-            "name": "Player_6",
-            "reason": 2,
-            "tick": 4706,
-            "user_name": "Player_6",
-            "user_steamid": "Player_6"
-        },
-        {
-            "name": "Player_1",
-            "reason": 2,
-            "tick": 4713,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        }
-    ],
-    "player_spawn": [
-        {
-            "tick": 65,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3"
-        },
-        {
-            "tick": 65,
-            "user_name": "Player_9",
-            "user_steamid": "Player_9"
-        },
-        {
-            "tick": 65,
-            "user_name": "Player_10",
-            "user_steamid": "Player_10"
-        },
-        {
-            "tick": 65,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "tick": 65,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        },
-        {
-            "tick": 65,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4"
-        },
-        {
-            "tick": 65,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2"
-        },
-        {
-            "tick": 65,
-            "user_name": "Player_6",
-            "user_steamid": "Player_6"
-        },
-        {
-            "tick": 65,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7"
-        },
-        {
-            "tick": 65,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        },
-        {
-            "tick": 3371,
-            "user_name": "Player_9",
-            "user_steamid": "Player_9"
-        },
-        {
-            "tick": 3371,
-            "user_name": "Player_10",
-            "user_steamid": "Player_10"
-        },
-        {
-            "tick": 3371,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "tick": 3371,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        },
-        {
-            "tick": 3371,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4"
-        },
-        {
-            "tick": 3371,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2"
-        },
-        {
-            "tick": 3371,
-            "user_name": "Player_6",
-            "user_steamid": "Player_6"
-        },
-        {
-            "tick": 3371,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7"
-        },
-        {
-            "tick": 3371,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        }
-    ],
-    "round_announce_match_start": [
-        {
-            "tick": 1761
-        }
-    ],
-    "cs_round_final_beep": [
-        {
-            "tick": 1761
-        }
-    ],
-    "bullet_damage": [
-        {
-            "attacker_name": "Player_8",
-            "attacker_steamid": "Player_8",
-            "damage_dir_x": 0.9158861041069031,
-            "damage_dir_y": 0.39937394857406616,
-            "damage_dir_z": -0.04065873473882675,
-            "distance": 355.81536865234375,
-            "in_air": false,
-            "no_scope": false,
-            "num_penetrations": 0,
-            "tick": 2344,
-            "victim_name": "Player_2",
-            "victim_steamid": "Player_2"
-        },
-        {
-            "attacker_name": "Player_8",
-            "attacker_steamid": "Player_8",
-            "damage_dir_x": 0.8476018309593201,
-            "damage_dir_y": 0.5258317589759827,
-            "damage_dir_z": -0.07121837139129639,
-            "distance": 162.71839904785156,
-            "in_air": false,
-            "no_scope": false,
-            "num_penetrations": 1,
-            "tick": 2442,
-            "victim_name": "Player_3",
-            "victim_steamid": "Player_3"
-        },
-        {
-            "attacker_name": "Player_7",
-            "attacker_steamid": "Player_7",
-            "damage_dir_x": 0.881411075592041,
-            "damage_dir_y": 0.46597009897232056,
-            "damage_dir_z": -0.07737227529287338,
-            "distance": 455.5429992675781,
-            "in_air": false,
-            "no_scope": false,
-            "num_penetrations": 0,
-            "tick": 2451,
-            "victim_name": "Player_8",
-            "victim_steamid": "Player_8"
-        },
-        {
-            "attacker_name": "Player_7",
-            "attacker_steamid": "Player_7",
-            "damage_dir_x": 0.8814107179641724,
-            "damage_dir_y": 0.465970516204834,
-            "damage_dir_z": -0.07737226784229279,
-            "distance": 177.5276641845703,
-            "in_air": false,
-            "no_scope": false,
-            "num_penetrations": 2,
-            "tick": 2451,
-            "victim_name": "Player_3",
-            "victim_steamid": "Player_3"
-        },
-        {
-            "attacker_name": "Player_8",
-            "attacker_steamid": "Player_8",
-            "damage_dir_x": 0.8783238530158997,
-            "damage_dir_y": 0.43951520323753357,
-            "damage_dir_z": -0.18807853758335114,
-            "distance": 178.46951293945312,
-            "in_air": false,
-            "no_scope": false,
-            "num_penetrations": 1,
-            "tick": 2460,
-            "victim_name": "Player_3",
-            "victim_steamid": "Player_3"
-        },
-        {
-            "attacker_name": "Player_7",
-            "attacker_steamid": "Player_7",
-            "damage_dir_x": 0.976281464099884,
-            "damage_dir_y": 0.09108694642782211,
-            "damage_dir_z": -0.1964125633239746,
-            "distance": 439.4021911621094,
-            "in_air": false,
-            "no_scope": false,
-            "num_penetrations": 0,
-            "tick": 2611,
-            "victim_name": "Player_5",
-            "victim_steamid": "Player_5"
-        },
-        {
-            "attacker_name": "Player_6",
-            "attacker_steamid": "Player_6",
-            "damage_dir_x": -0.15473924577236176,
-            "damage_dir_y": 0.9876558184623718,
-            "damage_dir_z": -0.02433142438530922,
-            "distance": 1171.0977783203125,
-            "in_air": false,
-            "no_scope": false,
-            "num_penetrations": 0,
-            "tick": 2665,
-            "victim_name": "Player_4",
-            "victim_steamid": "Player_4"
-        },
-        {
-            "attacker_name": "Player_8",
-            "attacker_steamid": "Player_8",
-            "damage_dir_x": 0.712535560131073,
-            "damage_dir_y": -0.6736385822296143,
-            "damage_dir_z": 0.19622476398944855,
-            "distance": 656.0092163085938,
-            "in_air": false,
-            "no_scope": false,
-            "num_penetrations": 0,
-            "tick": 2923,
-            "victim_name": "Player_1",
-            "victim_steamid": "Player_1"
-        }
-    ],
-    "weapon_reload": [
-        {
-            "tick": 2188,
-            "user_name": "Player_9",
-            "user_steamid": "Player_9"
-        },
-        {
-            "tick": 2499,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "tick": 2972,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7"
-        }
-    ],
-    "cs_round_start_beep": [
-        {
-            "tick": 1570
-        },
-        {
-            "tick": 1634
-        },
-        {
-            "tick": 1698
-        }
-    ],
-    "player_death": [
-        {
-            "assistedflash": false,
-            "assister_name": "",
-            "assister_steamid": "",
-            "attacker_name": "Player_8",
-            "attacker_steamid": "Player_8",
-            "attackerblind": false,
-            "attackerinair": false,
-            "distance": 9.197360038757324,
-            "dmg_armor": 0,
-            "dmg_health": 184,
-            "dominated": 0,
-            "headshot": true,
-            "hitgroup": "head",
-            "noreplay": true,
-            "noscope": false,
-            "penetrated": 0,
-            "revenge": 0,
-            "thrusmoke": false,
-            "tick": 2344,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2",
-            "weapon": "deagle",
-            "weapon_fauxitemid": "17293822569157820417",
-            "weapon_itemid": "20459083502",
-            "weapon_originalowner_xuid": "",
-            "wipe": 0
-        },
-        {
-            "assistedflash": false,
-            "assister_name": "",
-            "assister_steamid": "",
-            "attacker_name": "Player_8",
-            "attacker_steamid": "Player_8",
-            "attackerblind": false,
-            "attackerinair": false,
-            "distance": 6.4022746086120605,
-            "dmg_armor": 0,
-            "dmg_health": 20,
-            "dominated": 0,
-            "headshot": false,
-            "hitgroup": "chest",
-            "noreplay": true,
-            "noscope": false,
-            "penetrated": 1,
-            "revenge": 0,
-            "thrusmoke": false,
-            "tick": 2460,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3",
-            "weapon": "deagle",
-            "weapon_fauxitemid": "17293822569157820417",
-            "weapon_itemid": "20459083502",
-            "weapon_originalowner_xuid": "",
-            "wipe": 0
-        },
-        {
-            "assistedflash": false,
-            "assister_name": "",
-            "assister_steamid": "",
-            "attacker_name": "Player_7",
-            "attacker_steamid": "Player_7",
-            "attackerblind": false,
-            "attackerinair": false,
-            "distance": 11.459151268005371,
-            "dmg_armor": 0,
-            "dmg_health": 179,
-            "dominated": 0,
-            "headshot": true,
-            "hitgroup": "head",
-            "noreplay": true,
-            "noscope": false,
-            "penetrated": 0,
-            "revenge": 0,
-            "thrusmoke": false,
-            "tick": 2611,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5",
-            "weapon": "deagle",
-            "weapon_fauxitemid": "17293822569102704641",
-            "weapon_itemid": "0",
-            "weapon_originalowner_xuid": "",
-            "wipe": 0
-        },
-        {
-            "assistedflash": false,
-            "assister_name": "",
-            "assister_steamid": "",
-            "attacker_name": "Player_6",
-            "attacker_steamid": "Player_6",
-            "attackerblind": false,
-            "attackerinair": false,
-            "distance": 29.958738327026367,
-            "dmg_armor": 0,
-            "dmg_health": 112,
-            "dominated": 0,
-            "headshot": true,
-            "hitgroup": "head",
-            "noreplay": true,
-            "noscope": false,
-            "penetrated": 0,
-            "revenge": 0,
-            "thrusmoke": false,
-            "tick": 2665,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4",
-            "weapon": "hkp2000",
-            "weapon_fauxitemid": "17293822569102704672",
-            "weapon_itemid": "0",
-            "weapon_originalowner_xuid": "",
-            "wipe": 0
-        },
-        {
-            "assistedflash": false,
-            "assister_name": "",
-            "assister_steamid": "",
-            "attacker_name": "Player_8",
-            "attacker_steamid": "Player_8",
-            "attackerblind": false,
-            "attackerinair": false,
-            "distance": 16.92684555053711,
-            "dmg_armor": 0,
-            "dmg_health": 167,
-            "dominated": 0,
-            "headshot": true,
-            "hitgroup": "head",
-            "noreplay": true,
-            "noscope": false,
-            "penetrated": 0,
-            "revenge": 0,
-            "thrusmoke": false,
-            "tick": 2923,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1",
-            "weapon": "deagle",
-            "weapon_fauxitemid": "17293822569157820417",
-            "weapon_itemid": "20459083502",
-            "weapon_originalowner_xuid": "",
-            "wipe": 0
-        },
-        {
-            "assistedflash": false,
-            "assister_name": "",
-            "assister_steamid": "",
-            "attacker_name": "Player_5",
-            "attacker_steamid": "Player_5",
-            "attackerblind": false,
-            "attackerinair": false,
-            "distance": 0.0,
-            "dmg_armor": 0,
-            "dmg_health": 179,
-            "dominated": 0,
-            "headshot": false,
-            "hitgroup": "head",
-            "noreplay": true,
-            "noscope": false,
-            "penetrated": 0,
-            "revenge": 0,
-            "thrusmoke": false,
-            "tick": 4061,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5",
-            "weapon": "world",
-            "weapon_fauxitemid": "",
-            "weapon_itemid": "",
-            "weapon_originalowner_xuid": "",
-            "wipe": 0
-        },
-        {
-            "assistedflash": false,
-            "assister_name": "",
-            "assister_steamid": "",
-            "attacker_name": "Player_8",
-            "attacker_steamid": "Player_8",
-            "attackerblind": false,
-            "attackerinair": false,
-            "distance": 0.0,
-            "dmg_armor": 0,
-            "dmg_health": 11,
-            "dominated": 0,
-            "headshot": false,
-            "hitgroup": "left_leg",
-            "noreplay": true,
-            "noscope": false,
-            "penetrated": 0,
-            "revenge": 0,
-            "thrusmoke": false,
-            "tick": 4572,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8",
-            "weapon": "world",
-            "weapon_fauxitemid": "",
-            "weapon_itemid": "",
-            "weapon_originalowner_xuid": "",
-            "wipe": 0
-        },
-        {
-            "assistedflash": false,
-            "assister_name": "",
-            "assister_steamid": "",
-            "attacker_name": "Player_7",
-            "attacker_steamid": "Player_7",
-            "attackerblind": false,
-            "attackerinair": false,
-            "distance": 0.0,
-            "dmg_armor": 0,
-            "dmg_health": 0,
-            "dominated": 0,
-            "headshot": false,
-            "hitgroup": "-1",
-            "noreplay": true,
-            "noscope": false,
-            "penetrated": 0,
-            "revenge": 0,
-            "thrusmoke": false,
-            "tick": 4699,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7",
-            "weapon": "world",
-            "weapon_fauxitemid": "",
-            "weapon_itemid": "",
-            "weapon_originalowner_xuid": "",
-            "wipe": 0
-        },
-        {
-            "assistedflash": false,
-            "assister_name": "",
-            "assister_steamid": "",
-            "attacker_name": "Player_4",
-            "attacker_steamid": "Player_4",
-            "attackerblind": false,
-            "attackerinair": false,
-            "distance": 0.0,
-            "dmg_armor": 0,
-            "dmg_health": 112,
-            "dominated": 0,
-            "headshot": false,
-            "hitgroup": "head",
-            "noreplay": true,
-            "noscope": false,
-            "penetrated": 0,
-            "revenge": 0,
-            "thrusmoke": false,
-            "tick": 4699,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4",
-            "weapon": "world",
-            "weapon_fauxitemid": "",
-            "weapon_itemid": "",
-            "weapon_originalowner_xuid": "",
-            "wipe": 0
-        },
-        {
-            "assistedflash": false,
-            "assister_name": "",
-            "assister_steamid": "",
-            "attacker_name": "Player_2",
-            "attacker_steamid": "Player_2",
-            "attackerblind": false,
-            "attackerinair": false,
-            "distance": 0.0,
-            "dmg_armor": 0,
-            "dmg_health": 184,
-            "dominated": 0,
-            "headshot": false,
-            "hitgroup": "head",
-            "noreplay": true,
-            "noscope": false,
-            "penetrated": 0,
-            "revenge": 0,
-            "thrusmoke": false,
-            "tick": 4699,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2",
-            "weapon": "world",
-            "weapon_fauxitemid": "",
-            "weapon_itemid": "",
-            "weapon_originalowner_xuid": "",
-            "wipe": 0
-        },
-        {
-            "assistedflash": false,
-            "assister_name": "",
-            "assister_steamid": "",
-            "attacker_name": "Player_9",
-            "attacker_steamid": "Player_9",
-            "attackerblind": false,
-            "attackerinair": false,
-            "distance": 0.0,
-            "dmg_armor": 0,
-            "dmg_health": 0,
-            "dominated": 0,
-            "headshot": false,
-            "hitgroup": "-1",
-            "noreplay": true,
-            "noscope": false,
-            "penetrated": 0,
-            "revenge": 0,
-            "thrusmoke": false,
-            "tick": 4699,
-            "user_name": "Player_9",
-            "user_steamid": "Player_9",
-            "weapon": "world",
-            "weapon_fauxitemid": "",
-            "weapon_itemid": "",
-            "weapon_originalowner_xuid": "",
-            "wipe": 0
-        },
-        {
-            "assistedflash": false,
-            "assister_name": "",
-            "assister_steamid": "",
-            "attacker_name": "Player_10",
-            "attacker_steamid": "Player_10",
-            "attackerblind": false,
-            "attackerinair": false,
-            "distance": 0.0,
-            "dmg_armor": 0,
-            "dmg_health": 0,
-            "dominated": 0,
-            "headshot": false,
-            "hitgroup": "-1",
-            "noreplay": true,
-            "noscope": false,
-            "penetrated": 0,
-            "revenge": 0,
-            "thrusmoke": false,
-            "tick": 4699,
-            "user_name": "Player_10",
-            "user_steamid": "Player_10",
-            "weapon": "world",
-            "weapon_fauxitemid": "",
-            "weapon_itemid": "",
-            "weapon_originalowner_xuid": "",
-            "wipe": 0
-        },
-        {
-            "assistedflash": false,
-            "assister_name": "",
-            "assister_steamid": "",
-            "attacker_name": "Player_6",
-            "attacker_steamid": "Player_6",
-            "attackerblind": false,
-            "attackerinair": false,
-            "distance": 0.0,
-            "dmg_armor": 0,
-            "dmg_health": 0,
-            "dominated": 0,
-            "headshot": false,
-            "hitgroup": "-1",
-            "noreplay": true,
-            "noscope": false,
-            "penetrated": 0,
-            "revenge": 0,
-            "thrusmoke": false,
-            "tick": 4706,
-            "user_name": "Player_6",
-            "user_steamid": "Player_6",
-            "weapon": "world",
-            "weapon_fauxitemid": "",
-            "weapon_itemid": "",
-            "weapon_originalowner_xuid": "",
-            "wipe": 0
-        },
-        {
-            "assistedflash": false,
-            "assister_name": "",
-            "assister_steamid": "",
-            "attacker_name": "Player_1",
-            "attacker_steamid": "Player_1",
-            "attackerblind": false,
-            "attackerinair": false,
-            "distance": 0.0,
-            "dmg_armor": 0,
-            "dmg_health": 167,
-            "dominated": 0,
-            "headshot": false,
-            "hitgroup": "head",
-            "noreplay": true,
-            "noscope": false,
-            "penetrated": 0,
-            "revenge": 0,
-            "thrusmoke": false,
-            "tick": 4713,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1",
-            "weapon": "world",
-            "weapon_fauxitemid": "",
-            "weapon_itemid": "",
-            "weapon_originalowner_xuid": "",
-            "wipe": 0
-        }
-    ],
-    "bomb_dropped": [
-        {
-            "entindex": 127,
-            "tick": 599,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4"
-        },
-        {
-            "entindex": 127,
-            "tick": 948,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3"
-        },
-        {
-            "entindex": 127,
-            "tick": 2923,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        },
-        {
-            "entindex": 68,
-            "tick": 4061,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        },
-        {
-            "entindex": 68,
-            "tick": 4713,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        }
-    ],
-    "weapon_fire": [
-        {
-            "silenced": false,
-            "tick": 1815,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2",
-            "weapon": "weapon_knife_t"
-        },
-        {
-            "silenced": false,
-            "tick": 1849,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4",
-            "weapon": "weapon_knife_canis"
-        },
-        {
-            "silenced": false,
-            "tick": 1874,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4",
-            "weapon": "weapon_knife_canis"
-        },
-        {
-            "silenced": false,
-            "tick": 1875,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2",
-            "weapon": "weapon_knife_t"
-        },
-        {
-            "silenced": false,
-            "tick": 1910,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2",
-            "weapon": "weapon_knife_t"
-        },
-        {
-            "silenced": false,
-            "tick": 1948,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4",
-            "weapon": "weapon_knife_canis"
-        },
-        {
-            "silenced": false,
-            "tick": 1974,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4",
-            "weapon": "weapon_knife_canis"
-        },
-        {
-            "silenced": false,
-            "tick": 1999,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4",
-            "weapon": "weapon_knife_canis"
-        },
-        {
-            "silenced": false,
-            "tick": 2034,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2",
-            "weapon": "weapon_knife_t"
-        },
-        {
-            "silenced": false,
-            "tick": 2108,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2",
-            "weapon": "weapon_knife_t"
-        },
-        {
-            "silenced": true,
-            "tick": 2158,
-            "user_name": "Player_9",
-            "user_steamid": "Player_9",
-            "weapon": "weapon_usp_silencer"
-        },
-        {
-            "silenced": false,
-            "tick": 2314,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2",
-            "weapon": "weapon_glock"
-        },
-        {
-            "silenced": false,
-            "tick": 2333,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2",
-            "weapon": "weapon_glock"
-        },
-        {
-            "silenced": false,
-            "tick": 2344,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8",
-            "weapon": "weapon_deagle"
-        },
-        {
-            "silenced": false,
-            "tick": 2359,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8",
-            "weapon": "weapon_deagle"
-        },
-        {
-            "silenced": false,
-            "tick": 2417,
-            "user_name": "Player_9",
-            "user_steamid": "Player_9",
-            "weapon": "weapon_knife"
-        },
-        {
-            "silenced": false,
-            "tick": 2430,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3",
-            "weapon": "weapon_glock"
-        },
-        {
-            "silenced": false,
-            "tick": 2441,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3",
-            "weapon": "weapon_glock"
-        },
-        {
-            "silenced": false,
-            "tick": 2442,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8",
-            "weapon": "weapon_deagle"
-        },
-        {
-            "silenced": false,
-            "tick": 2451,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7",
-            "weapon": "weapon_deagle"
-        },
-        {
-            "silenced": false,
-            "tick": 2452,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3",
-            "weapon": "weapon_glock"
-        },
-        {
-            "silenced": false,
-            "tick": 2460,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8",
-            "weapon": "weapon_deagle"
-        },
-        {
-            "silenced": false,
-            "tick": 2611,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7",
-            "weapon": "weapon_deagle"
-        },
-        {
-            "silenced": false,
-            "tick": 2661,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4",
-            "weapon": "weapon_glock"
-        },
-        {
-            "silenced": false,
-            "tick": 2665,
-            "user_name": "Player_6",
-            "user_steamid": "Player_6",
-            "weapon": "weapon_hkp2000"
-        },
-        {
-            "silenced": false,
-            "tick": 2923,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8",
-            "weapon": "weapon_deagle"
-        }
-    ],
-    "player_footstep": [
-        {
-            "tick": 1811,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "tick": 1831,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7"
-        },
-        {
-            "tick": 1836,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4"
-        },
-        {
-            "tick": 1913,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7"
-        },
-        {
-            "tick": 2020,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        },
-        {
-            "tick": 2039,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2"
-        },
-        {
-            "tick": 2098,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7"
-        },
-        {
-            "tick": 2110,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        },
-        {
-            "tick": 2120,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        },
-        {
-            "tick": 2145,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "tick": 2154,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        },
-        {
-            "tick": 2193,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "tick": 2203,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        },
-        {
-            "tick": 2231,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "tick": 2245,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        },
-        {
-            "tick": 2275,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "tick": 2296,
-            "user_name": "Player_9",
-            "user_steamid": "Player_9"
-        },
-        {
-            "tick": 2399,
-            "user_name": "Player_9",
-            "user_steamid": "Player_9"
-        },
-        {
-            "tick": 2454,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4"
-        },
-        {
-            "tick": 2509,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        },
-        {
-            "tick": 2518,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7"
-        },
-        {
-            "tick": 2727,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7"
-        },
-        {
-            "tick": 2740,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "tick": 2774,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7"
-        },
-        {
-            "tick": 2788,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "tick": 2829,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "tick": 3224,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "tick": 3271,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "tick": 3319,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "tick": 3368,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "tick": 3369,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        }
-    ],
-    "other_death": [
-        {
-            "attacker_name": "Player_9",
-            "attacker_steamid": "Player_9",
-            "attackerblind": false,
-            "headshot": false,
-            "noscope": false,
-            "otherid": 277,
-            "othertype": "prop_dynamic",
-            "penetrated": 0,
-            "thrusmoke": false,
-            "tick": 2158,
-            "weapon": "usp_silencer",
-            "weapon_fauxitemid": "17293822569102704701",
-            "weapon_itemid": "0",
-            "weapon_originalowner_xuid": ""
-        },
-        {
-            "attacker_name": "Player_9",
-            "attacker_steamid": "Player_9",
-            "attackerblind": false,
-            "headshot": false,
-            "noscope": false,
-            "otherid": 272,
-            "othertype": "prop_dynamic",
-            "penetrated": 0,
-            "thrusmoke": false,
-            "tick": 2417,
-            "weapon": "knife",
-            "weapon_fauxitemid": "17293822569102704682",
-            "weapon_itemid": "0",
-            "weapon_originalowner_xuid": ""
-        }
-    ],
-    "round_prestart": [
-        {
-            "tick": 65
-        },
-        {
-            "tick": 3371
-        }
-    ],
-    "round_freeze_end": [
-        {
-            "tick": 1761
-        }
-    ],
-    "item_pickup": [
-        {
-            "defindex": 526,
-            "item": "knife",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3"
-        },
-        {
-            "defindex": 4,
-            "item": "glock",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3"
-        },
-        {
-            "defindex": 42,
-            "item": "knife",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_9",
-            "user_steamid": "Player_9"
-        },
-        {
-            "defindex": 61,
-            "item": "hkp2000",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_9",
-            "user_steamid": "Player_9"
-        },
-        {
-            "defindex": 42,
-            "item": "knife",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_10",
-            "user_steamid": "Player_10"
-        },
-        {
-            "defindex": 61,
-            "item": "hkp2000",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_10",
-            "user_steamid": "Player_10"
-        },
-        {
-            "defindex": 42,
-            "item": "knife",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "defindex": 61,
-            "item": "hkp2000",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "defindex": 59,
-            "item": "knife",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        },
-        {
-            "defindex": 4,
-            "item": "glock",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        },
-        {
-            "defindex": 518,
-            "item": "knife",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4"
-        },
-        {
-            "defindex": 4,
-            "item": "glock",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4"
-        },
-        {
-            "defindex": 59,
-            "item": "knife",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2"
-        },
-        {
-            "defindex": 4,
-            "item": "glock",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2"
-        },
-        {
-            "defindex": 42,
-            "item": "knife",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_6",
-            "user_steamid": "Player_6"
-        },
-        {
-            "defindex": 32,
-            "item": "hkp2000",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_6",
-            "user_steamid": "Player_6"
-        },
-        {
-            "defindex": 42,
-            "item": "knife",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7"
-        },
-        {
-            "defindex": 61,
-            "item": "hkp2000",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7"
-        },
-        {
-            "defindex": 59,
-            "item": "knife",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        },
-        {
-            "defindex": 4,
-            "item": "glock",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        },
-        {
-            "defindex": 49,
-            "item": "c4",
-            "silent": false,
-            "tick": 65,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4"
-        },
-        {
-            "defindex": 50,
-            "item": "vest",
-            "silent": false,
-            "tick": 569,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2"
-        },
-        {
-            "defindex": 50,
-            "item": "vest",
-            "silent": false,
-            "tick": 622,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        },
-        {
-            "defindex": 49,
-            "item": "c4",
-            "silent": false,
-            "tick": 624,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3"
-        },
-        {
-            "defindex": 50,
-            "item": "vest",
-            "silent": false,
-            "tick": 648,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4"
-        },
-        {
-            "defindex": 50,
-            "item": "vest",
-            "silent": false,
-            "tick": 648,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3"
-        },
-        {
-            "defindex": 1,
-            "item": "deagle",
-            "silent": false,
-            "tick": 662,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "defindex": 50,
-            "item": "vest",
-            "silent": false,
-            "tick": 813,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        },
-        {
-            "defindex": 49,
-            "item": "c4",
-            "silent": false,
-            "tick": 976,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        },
-        {
-            "defindex": 1,
-            "item": "deagle",
-            "silent": false,
-            "tick": 1012,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7"
-        },
-        {
-            "defindex": 50,
-            "item": "vest",
-            "silent": false,
-            "tick": 1916,
-            "user_name": "Player_9",
-            "user_steamid": "Player_9"
-        },
-        {
-            "defindex": 59,
-            "item": "knife",
-            "silent": false,
-            "tick": 3371,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        },
-        {
-            "defindex": 4,
-            "item": "glock",
-            "silent": false,
-            "tick": 3371,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        },
-        {
-            "defindex": 518,
-            "item": "knife",
-            "silent": false,
-            "tick": 3371,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4"
-        },
-        {
-            "defindex": 4,
-            "item": "glock",
-            "silent": false,
-            "tick": 3371,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4"
-        },
-        {
-            "defindex": 59,
-            "item": "knife",
-            "silent": false,
-            "tick": 3371,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2"
-        },
-        {
-            "defindex": 4,
-            "item": "glock",
-            "silent": false,
-            "tick": 3371,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2"
-        },
-        {
-            "defindex": 59,
-            "item": "knife",
-            "silent": false,
-            "tick": 3371,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        },
-        {
-            "defindex": 4,
-            "item": "glock",
-            "silent": false,
-            "tick": 3371,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        },
-        {
-            "defindex": 49,
-            "item": "c4",
-            "silent": false,
-            "tick": 3371,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        },
-        {
-            "defindex": 40,
-            "item": "ssg08",
-            "silent": false,
-            "tick": 3488,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "defindex": 51,
-            "item": "vesthelm",
-            "silent": false,
-            "tick": 3513,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "defindex": 51,
-            "item": "vesthelm",
-            "silent": false,
-            "tick": 3677,
-            "user_name": "Player_10",
-            "user_steamid": "Player_10"
-        },
-        {
-            "defindex": 40,
-            "item": "ssg08",
-            "silent": false,
-            "tick": 3712,
-            "user_name": "Player_10",
-            "user_steamid": "Player_10"
-        },
-        {
-            "defindex": 49,
-            "item": "c4",
-            "silent": false,
-            "tick": 4068,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        }
-    ],
     "server_cvar": [
         {
             "name": "think_limit",
@@ -1761,155 +256,943 @@
             "value": "8866608350238"
         }
     ],
+    "player_hurt": [
+        {
+            "armor": 100,
+            "attacker_steamid": "Player_8",
+            "dmg_armor": 0,
+            "dmg_health": 184,
+            "health": 0,
+            "hitgroup": "head",
+            "tick": 2344,
+            "user_steamid": "Player_2",
+            "weapon": "deagle"
+        },
+        {
+            "armor": 100,
+            "attacker_steamid": "Player_8",
+            "dmg_armor": 0,
+            "dmg_health": 87,
+            "health": 13,
+            "hitgroup": "head",
+            "tick": 2442,
+            "user_steamid": "Player_3",
+            "weapon": "deagle"
+        },
+        {
+            "armor": 0,
+            "attacker_steamid": "Player_7",
+            "dmg_armor": 0,
+            "dmg_health": 11,
+            "health": 89,
+            "hitgroup": "left_leg",
+            "tick": 2451,
+            "user_steamid": "Player_8",
+            "weapon": "deagle"
+        },
+        {
+            "armor": 100,
+            "attacker_steamid": "Player_7",
+            "dmg_armor": 0,
+            "dmg_health": 7,
+            "health": 6,
+            "hitgroup": "stomach",
+            "tick": 2451,
+            "user_steamid": "Player_3",
+            "weapon": "deagle"
+        },
+        {
+            "armor": 100,
+            "attacker_steamid": "Player_8",
+            "dmg_armor": 0,
+            "dmg_health": 20,
+            "health": 0,
+            "hitgroup": "chest",
+            "tick": 2460,
+            "user_steamid": "Player_3",
+            "weapon": "deagle"
+        },
+        {
+            "armor": 100,
+            "attacker_steamid": "Player_7",
+            "dmg_armor": 0,
+            "dmg_health": 179,
+            "health": 0,
+            "hitgroup": "head",
+            "tick": 2611,
+            "user_steamid": "Player_5",
+            "weapon": "deagle"
+        },
+        {
+            "armor": 100,
+            "attacker_steamid": "Player_6",
+            "dmg_armor": 0,
+            "dmg_health": 112,
+            "health": 0,
+            "hitgroup": "head",
+            "tick": 2665,
+            "user_steamid": "Player_4",
+            "weapon": "hkp2000"
+        },
+        {
+            "armor": 100,
+            "attacker_steamid": "Player_8",
+            "dmg_armor": 0,
+            "dmg_health": 167,
+            "health": 0,
+            "hitgroup": "head",
+            "tick": 2923,
+            "user_steamid": "Player_1",
+            "weapon": "deagle"
+        }
+    ],
+    "cs_round_final_beep": [
+        {
+            "tick": 1761
+        }
+    ],
+    "round_announce_match_start": [
+        {
+            "tick": 1761
+        }
+    ],
+    "round_freeze_end": [
+        {
+            "tick": 1761
+        }
+    ],
+    "bullet_damage": [
+        {
+            "attacker_steamid": "Player_8",
+            "damage_dir_x": 0.9158861041069031,
+            "damage_dir_y": 0.39937394857406616,
+            "damage_dir_z": -0.04065873473882675,
+            "distance": 355.81536865234375,
+            "in_air": false,
+            "no_scope": false,
+            "num_penetrations": 0,
+            "tick": 2344,
+            "victim_steamid": "Player_2"
+        },
+        {
+            "attacker_steamid": "Player_8",
+            "damage_dir_x": 0.8476018309593201,
+            "damage_dir_y": 0.5258317589759827,
+            "damage_dir_z": -0.07121837139129639,
+            "distance": 162.71839904785156,
+            "in_air": false,
+            "no_scope": false,
+            "num_penetrations": 1,
+            "tick": 2442,
+            "victim_steamid": "Player_3"
+        },
+        {
+            "attacker_steamid": "Player_7",
+            "damage_dir_x": 0.881411075592041,
+            "damage_dir_y": 0.46597009897232056,
+            "damage_dir_z": -0.07737227529287338,
+            "distance": 455.5429992675781,
+            "in_air": false,
+            "no_scope": false,
+            "num_penetrations": 0,
+            "tick": 2451,
+            "victim_steamid": "Player_8"
+        },
+        {
+            "attacker_steamid": "Player_7",
+            "damage_dir_x": 0.8814107179641724,
+            "damage_dir_y": 0.465970516204834,
+            "damage_dir_z": -0.07737226784229279,
+            "distance": 177.5276641845703,
+            "in_air": false,
+            "no_scope": false,
+            "num_penetrations": 2,
+            "tick": 2451,
+            "victim_steamid": "Player_3"
+        },
+        {
+            "attacker_steamid": "Player_8",
+            "damage_dir_x": 0.8783238530158997,
+            "damage_dir_y": 0.43951520323753357,
+            "damage_dir_z": -0.18807853758335114,
+            "distance": 178.46951293945312,
+            "in_air": false,
+            "no_scope": false,
+            "num_penetrations": 1,
+            "tick": 2460,
+            "victim_steamid": "Player_3"
+        },
+        {
+            "attacker_steamid": "Player_7",
+            "damage_dir_x": 0.976281464099884,
+            "damage_dir_y": 0.09108694642782211,
+            "damage_dir_z": -0.1964125633239746,
+            "distance": 439.4021911621094,
+            "in_air": false,
+            "no_scope": false,
+            "num_penetrations": 0,
+            "tick": 2611,
+            "victim_steamid": "Player_5"
+        },
+        {
+            "attacker_steamid": "Player_6",
+            "damage_dir_x": -0.15473924577236176,
+            "damage_dir_y": 0.9876558184623718,
+            "damage_dir_z": -0.02433142438530922,
+            "distance": 1171.0977783203125,
+            "in_air": false,
+            "no_scope": false,
+            "num_penetrations": 0,
+            "tick": 2665,
+            "victim_steamid": "Player_4"
+        },
+        {
+            "attacker_steamid": "Player_8",
+            "damage_dir_x": 0.712535560131073,
+            "damage_dir_y": -0.6736385822296143,
+            "damage_dir_z": 0.19622476398944855,
+            "distance": 656.0092163085938,
+            "in_air": false,
+            "no_scope": false,
+            "num_penetrations": 0,
+            "tick": 2923,
+            "victim_steamid": "Player_1"
+        }
+    ],
+    "other_death": [
+        {
+            "attacker_steamid": "Player_9",
+            "attackerblind": false,
+            "headshot": false,
+            "noscope": false,
+            "otherid": 277,
+            "othertype": "prop_dynamic",
+            "penetrated": 0,
+            "thrusmoke": false,
+            "tick": 2158,
+            "weapon": "usp_silencer",
+            "weapon_fauxitemid": "17293822569102704701",
+            "weapon_itemid": "0"
+        },
+        {
+            "attacker_steamid": "Player_9",
+            "attackerblind": false,
+            "headshot": false,
+            "noscope": false,
+            "otherid": 272,
+            "othertype": "prop_dynamic",
+            "penetrated": 0,
+            "thrusmoke": false,
+            "tick": 2417,
+            "weapon": "knife",
+            "weapon_fauxitemid": "17293822569102704682",
+            "weapon_itemid": "0"
+        }
+    ],
+    "bomb_dropped": [
+        {
+            "entindex": 127,
+            "tick": 599,
+            "user_steamid": "Player_4"
+        },
+        {
+            "entindex": 127,
+            "tick": 948,
+            "user_steamid": "Player_3"
+        },
+        {
+            "entindex": 127,
+            "tick": 2923,
+            "user_steamid": "Player_1"
+        },
+        {
+            "entindex": 68,
+            "tick": 4061,
+            "user_steamid": "Player_5"
+        },
+        {
+            "entindex": 68,
+            "tick": 4713,
+            "user_steamid": "Player_1"
+        }
+    ],
+    "bomb_pickup": [
+        {
+            "tick": 65,
+            "user_steamid": "Player_4"
+        },
+        {
+            "tick": 624,
+            "user_steamid": "Player_3"
+        },
+        {
+            "tick": 976,
+            "user_steamid": "Player_1"
+        },
+        {
+            "tick": 3371,
+            "user_steamid": "Player_5"
+        },
+        {
+            "tick": 4068,
+            "user_steamid": "Player_1"
+        }
+    ],
+    "hltv_versioninfo": [
+        {
+            "tick": 1,
+            "version": 1
+        }
+    ],
+    "cs_round_start_beep": [
+        {
+            "tick": 1570
+        },
+        {
+            "tick": 1634
+        },
+        {
+            "tick": 1698
+        }
+    ],
+    "weapon_fire": [
+        {
+            "silenced": false,
+            "tick": 1815,
+            "user_steamid": "Player_2",
+            "weapon": "weapon_knife_t"
+        },
+        {
+            "silenced": false,
+            "tick": 1849,
+            "user_steamid": "Player_4",
+            "weapon": "weapon_knife_canis"
+        },
+        {
+            "silenced": false,
+            "tick": 1874,
+            "user_steamid": "Player_4",
+            "weapon": "weapon_knife_canis"
+        },
+        {
+            "silenced": false,
+            "tick": 1875,
+            "user_steamid": "Player_2",
+            "weapon": "weapon_knife_t"
+        },
+        {
+            "silenced": false,
+            "tick": 1910,
+            "user_steamid": "Player_2",
+            "weapon": "weapon_knife_t"
+        },
+        {
+            "silenced": false,
+            "tick": 1948,
+            "user_steamid": "Player_4",
+            "weapon": "weapon_knife_canis"
+        },
+        {
+            "silenced": false,
+            "tick": 1974,
+            "user_steamid": "Player_4",
+            "weapon": "weapon_knife_canis"
+        },
+        {
+            "silenced": false,
+            "tick": 1999,
+            "user_steamid": "Player_4",
+            "weapon": "weapon_knife_canis"
+        },
+        {
+            "silenced": false,
+            "tick": 2034,
+            "user_steamid": "Player_2",
+            "weapon": "weapon_knife_t"
+        },
+        {
+            "silenced": false,
+            "tick": 2108,
+            "user_steamid": "Player_2",
+            "weapon": "weapon_knife_t"
+        },
+        {
+            "silenced": true,
+            "tick": 2158,
+            "user_steamid": "Player_9",
+            "weapon": "weapon_usp_silencer"
+        },
+        {
+            "silenced": false,
+            "tick": 2314,
+            "user_steamid": "Player_2",
+            "weapon": "weapon_glock"
+        },
+        {
+            "silenced": false,
+            "tick": 2333,
+            "user_steamid": "Player_2",
+            "weapon": "weapon_glock"
+        },
+        {
+            "silenced": false,
+            "tick": 2344,
+            "user_steamid": "Player_8",
+            "weapon": "weapon_deagle"
+        },
+        {
+            "silenced": false,
+            "tick": 2359,
+            "user_steamid": "Player_8",
+            "weapon": "weapon_deagle"
+        },
+        {
+            "silenced": false,
+            "tick": 2417,
+            "user_steamid": "Player_9",
+            "weapon": "weapon_knife"
+        },
+        {
+            "silenced": false,
+            "tick": 2430,
+            "user_steamid": "Player_3",
+            "weapon": "weapon_glock"
+        },
+        {
+            "silenced": false,
+            "tick": 2441,
+            "user_steamid": "Player_3",
+            "weapon": "weapon_glock"
+        },
+        {
+            "silenced": false,
+            "tick": 2442,
+            "user_steamid": "Player_8",
+            "weapon": "weapon_deagle"
+        },
+        {
+            "silenced": false,
+            "tick": 2451,
+            "user_steamid": "Player_7",
+            "weapon": "weapon_deagle"
+        },
+        {
+            "silenced": false,
+            "tick": 2452,
+            "user_steamid": "Player_3",
+            "weapon": "weapon_glock"
+        },
+        {
+            "silenced": false,
+            "tick": 2460,
+            "user_steamid": "Player_8",
+            "weapon": "weapon_deagle"
+        },
+        {
+            "silenced": false,
+            "tick": 2611,
+            "user_steamid": "Player_7",
+            "weapon": "weapon_deagle"
+        },
+        {
+            "silenced": false,
+            "tick": 2661,
+            "user_steamid": "Player_4",
+            "weapon": "weapon_glock"
+        },
+        {
+            "silenced": false,
+            "tick": 2665,
+            "user_steamid": "Player_6",
+            "weapon": "weapon_hkp2000"
+        },
+        {
+            "silenced": false,
+            "tick": 2923,
+            "user_steamid": "Player_8",
+            "weapon": "weapon_deagle"
+        }
+    ],
+    "player_death": [
+        {
+            "assistedflash": false,
+            "assister_steamid": "",
+            "attacker_steamid": "Player_8",
+            "attackerblind": false,
+            "attackerinair": false,
+            "distance": 9.197360038757324,
+            "dmg_armor": 0,
+            "dmg_health": 184,
+            "dominated": 0,
+            "headshot": true,
+            "hitgroup": "head",
+            "noreplay": true,
+            "noscope": false,
+            "penetrated": 0,
+            "revenge": 0,
+            "thrusmoke": false,
+            "tick": 2344,
+            "user_steamid": "Player_2",
+            "weapon": "deagle",
+            "weapon_fauxitemid": "17293822569157820417",
+            "weapon_itemid": "20459083502",
+            "wipe": 0
+        },
+        {
+            "assistedflash": false,
+            "assister_steamid": "",
+            "attacker_steamid": "Player_8",
+            "attackerblind": false,
+            "attackerinair": false,
+            "distance": 6.4022746086120605,
+            "dmg_armor": 0,
+            "dmg_health": 20,
+            "dominated": 0,
+            "headshot": false,
+            "hitgroup": "chest",
+            "noreplay": true,
+            "noscope": false,
+            "penetrated": 1,
+            "revenge": 0,
+            "thrusmoke": false,
+            "tick": 2460,
+            "user_steamid": "Player_3",
+            "weapon": "deagle",
+            "weapon_fauxitemid": "17293822569157820417",
+            "weapon_itemid": "20459083502",
+            "wipe": 0
+        },
+        {
+            "assistedflash": false,
+            "assister_steamid": "",
+            "attacker_steamid": "Player_7",
+            "attackerblind": false,
+            "attackerinair": false,
+            "distance": 11.459151268005371,
+            "dmg_armor": 0,
+            "dmg_health": 179,
+            "dominated": 0,
+            "headshot": true,
+            "hitgroup": "head",
+            "noreplay": true,
+            "noscope": false,
+            "penetrated": 0,
+            "revenge": 0,
+            "thrusmoke": false,
+            "tick": 2611,
+            "user_steamid": "Player_5",
+            "weapon": "deagle",
+            "weapon_fauxitemid": "17293822569102704641",
+            "weapon_itemid": "0",
+            "wipe": 0
+        },
+        {
+            "assistedflash": false,
+            "assister_steamid": "",
+            "attacker_steamid": "Player_6",
+            "attackerblind": false,
+            "attackerinair": false,
+            "distance": 29.958738327026367,
+            "dmg_armor": 0,
+            "dmg_health": 112,
+            "dominated": 0,
+            "headshot": true,
+            "hitgroup": "head",
+            "noreplay": true,
+            "noscope": false,
+            "penetrated": 0,
+            "revenge": 0,
+            "thrusmoke": false,
+            "tick": 2665,
+            "user_steamid": "Player_4",
+            "weapon": "hkp2000",
+            "weapon_fauxitemid": "17293822569102704672",
+            "weapon_itemid": "0",
+            "wipe": 0
+        },
+        {
+            "assistedflash": false,
+            "assister_steamid": "",
+            "attacker_steamid": "Player_8",
+            "attackerblind": false,
+            "attackerinair": false,
+            "distance": 16.92684555053711,
+            "dmg_armor": 0,
+            "dmg_health": 167,
+            "dominated": 0,
+            "headshot": true,
+            "hitgroup": "head",
+            "noreplay": true,
+            "noscope": false,
+            "penetrated": 0,
+            "revenge": 0,
+            "thrusmoke": false,
+            "tick": 2923,
+            "user_steamid": "Player_1",
+            "weapon": "deagle",
+            "weapon_fauxitemid": "17293822569157820417",
+            "weapon_itemid": "20459083502",
+            "wipe": 0
+        },
+        {
+            "assistedflash": false,
+            "assister_steamid": "",
+            "attacker_steamid": "Player_5",
+            "attackerblind": false,
+            "attackerinair": false,
+            "distance": 0.0,
+            "dmg_armor": 0,
+            "dmg_health": 179,
+            "dominated": 0,
+            "headshot": false,
+            "hitgroup": "head",
+            "noreplay": true,
+            "noscope": false,
+            "penetrated": 0,
+            "revenge": 0,
+            "thrusmoke": false,
+            "tick": 4061,
+            "user_steamid": "Player_5",
+            "weapon": "world",
+            "weapon_fauxitemid": "",
+            "weapon_itemid": "",
+            "wipe": 0
+        },
+        {
+            "assistedflash": false,
+            "assister_steamid": "",
+            "attacker_steamid": "Player_8",
+            "attackerblind": false,
+            "attackerinair": false,
+            "distance": 0.0,
+            "dmg_armor": 0,
+            "dmg_health": 11,
+            "dominated": 0,
+            "headshot": false,
+            "hitgroup": "left_leg",
+            "noreplay": true,
+            "noscope": false,
+            "penetrated": 0,
+            "revenge": 0,
+            "thrusmoke": false,
+            "tick": 4572,
+            "user_steamid": "Player_8",
+            "weapon": "world",
+            "weapon_fauxitemid": "",
+            "weapon_itemid": "",
+            "wipe": 0
+        },
+        {
+            "assistedflash": false,
+            "assister_steamid": "",
+            "attacker_steamid": "Player_7",
+            "attackerblind": false,
+            "attackerinair": false,
+            "distance": 0.0,
+            "dmg_armor": 0,
+            "dmg_health": 0,
+            "dominated": 0,
+            "headshot": false,
+            "hitgroup": "-1",
+            "noreplay": true,
+            "noscope": false,
+            "penetrated": 0,
+            "revenge": 0,
+            "thrusmoke": false,
+            "tick": 4699,
+            "user_steamid": "Player_7",
+            "weapon": "world",
+            "weapon_fauxitemid": "",
+            "weapon_itemid": "",
+            "wipe": 0
+        },
+        {
+            "assistedflash": false,
+            "assister_steamid": "",
+            "attacker_steamid": "Player_4",
+            "attackerblind": false,
+            "attackerinair": false,
+            "distance": 0.0,
+            "dmg_armor": 0,
+            "dmg_health": 112,
+            "dominated": 0,
+            "headshot": false,
+            "hitgroup": "head",
+            "noreplay": true,
+            "noscope": false,
+            "penetrated": 0,
+            "revenge": 0,
+            "thrusmoke": false,
+            "tick": 4699,
+            "user_steamid": "Player_4",
+            "weapon": "world",
+            "weapon_fauxitemid": "",
+            "weapon_itemid": "",
+            "wipe": 0
+        },
+        {
+            "assistedflash": false,
+            "assister_steamid": "",
+            "attacker_steamid": "Player_2",
+            "attackerblind": false,
+            "attackerinair": false,
+            "distance": 0.0,
+            "dmg_armor": 0,
+            "dmg_health": 184,
+            "dominated": 0,
+            "headshot": false,
+            "hitgroup": "head",
+            "noreplay": true,
+            "noscope": false,
+            "penetrated": 0,
+            "revenge": 0,
+            "thrusmoke": false,
+            "tick": 4699,
+            "user_steamid": "Player_2",
+            "weapon": "world",
+            "weapon_fauxitemid": "",
+            "weapon_itemid": "",
+            "wipe": 0
+        },
+        {
+            "assistedflash": false,
+            "assister_steamid": "",
+            "attacker_steamid": "Player_9",
+            "attackerblind": false,
+            "attackerinair": false,
+            "distance": 0.0,
+            "dmg_armor": 0,
+            "dmg_health": 0,
+            "dominated": 0,
+            "headshot": false,
+            "hitgroup": "-1",
+            "noreplay": true,
+            "noscope": false,
+            "penetrated": 0,
+            "revenge": 0,
+            "thrusmoke": false,
+            "tick": 4699,
+            "user_steamid": "Player_9",
+            "weapon": "world",
+            "weapon_fauxitemid": "",
+            "weapon_itemid": "",
+            "wipe": 0
+        },
+        {
+            "assistedflash": false,
+            "assister_steamid": "",
+            "attacker_steamid": "Player_10",
+            "attackerblind": false,
+            "attackerinair": false,
+            "distance": 0.0,
+            "dmg_armor": 0,
+            "dmg_health": 0,
+            "dominated": 0,
+            "headshot": false,
+            "hitgroup": "-1",
+            "noreplay": true,
+            "noscope": false,
+            "penetrated": 0,
+            "revenge": 0,
+            "thrusmoke": false,
+            "tick": 4699,
+            "user_steamid": "Player_10",
+            "weapon": "world",
+            "weapon_fauxitemid": "",
+            "weapon_itemid": "",
+            "wipe": 0
+        },
+        {
+            "assistedflash": false,
+            "assister_steamid": "",
+            "attacker_steamid": "Player_6",
+            "attackerblind": false,
+            "attackerinair": false,
+            "distance": 0.0,
+            "dmg_armor": 0,
+            "dmg_health": 0,
+            "dominated": 0,
+            "headshot": false,
+            "hitgroup": "-1",
+            "noreplay": true,
+            "noscope": false,
+            "penetrated": 0,
+            "revenge": 0,
+            "thrusmoke": false,
+            "tick": 4706,
+            "user_steamid": "Player_6",
+            "weapon": "world",
+            "weapon_fauxitemid": "",
+            "weapon_itemid": "",
+            "wipe": 0
+        },
+        {
+            "assistedflash": false,
+            "assister_steamid": "",
+            "attacker_steamid": "Player_1",
+            "attackerblind": false,
+            "attackerinair": false,
+            "distance": 0.0,
+            "dmg_armor": 0,
+            "dmg_health": 167,
+            "dominated": 0,
+            "headshot": false,
+            "hitgroup": "head",
+            "noreplay": true,
+            "noscope": false,
+            "penetrated": 0,
+            "revenge": 0,
+            "thrusmoke": false,
+            "tick": 4713,
+            "user_steamid": "Player_1",
+            "weapon": "world",
+            "weapon_fauxitemid": "",
+            "weapon_itemid": "",
+            "wipe": 0
+        }
+    ],
     "cs_win_panel_match": [
         {
             "tick": 3922
         }
     ],
+    "round_officially_ended": [
+        {
+            "tick": 3371
+        },
+        {
+            "tick": 3371
+        }
+    ],
+    "weapon_reload": [
+        {
+            "tick": 2188,
+            "user_steamid": "Player_9"
+        },
+        {
+            "tick": 2499,
+            "user_steamid": "Player_8"
+        },
+        {
+            "tick": 2972,
+            "user_steamid": "Player_7"
+        }
+    ],
     "player_jump": [
         {
             "tick": 1811,
-            "user_name": "Player_8",
             "user_steamid": "Player_8"
         },
         {
             "tick": 1831,
-            "user_name": "Player_7",
             "user_steamid": "Player_7"
         },
         {
             "tick": 1913,
-            "user_name": "Player_7",
             "user_steamid": "Player_7"
         },
         {
             "tick": 2020,
-            "user_name": "Player_5",
             "user_steamid": "Player_5"
         },
         {
             "tick": 2039,
-            "user_name": "Player_2",
             "user_steamid": "Player_2"
         },
         {
             "tick": 2098,
-            "user_name": "Player_7",
             "user_steamid": "Player_7"
         },
         {
             "tick": 2120,
-            "user_name": "Player_1",
             "user_steamid": "Player_1"
         },
         {
             "tick": 2145,
-            "user_name": "Player_8",
             "user_steamid": "Player_8"
         },
         {
             "tick": 2154,
-            "user_name": "Player_5",
             "user_steamid": "Player_5"
         },
         {
             "tick": 2193,
-            "user_name": "Player_8",
             "user_steamid": "Player_8"
         },
         {
             "tick": 2203,
-            "user_name": "Player_5",
             "user_steamid": "Player_5"
         },
         {
             "tick": 2231,
-            "user_name": "Player_8",
             "user_steamid": "Player_8"
         },
         {
             "tick": 2245,
-            "user_name": "Player_1",
             "user_steamid": "Player_1"
         },
         {
             "tick": 2275,
-            "user_name": "Player_8",
             "user_steamid": "Player_8"
         },
         {
             "tick": 2296,
-            "user_name": "Player_9",
             "user_steamid": "Player_9"
         },
         {
             "tick": 2399,
-            "user_name": "Player_9",
             "user_steamid": "Player_9"
         },
         {
             "tick": 2454,
-            "user_name": "Player_4",
             "user_steamid": "Player_4"
         },
         {
             "tick": 2509,
-            "user_name": "Player_1",
             "user_steamid": "Player_1"
         },
         {
             "tick": 2518,
-            "user_name": "Player_7",
             "user_steamid": "Player_7"
         },
         {
             "tick": 2727,
-            "user_name": "Player_7",
             "user_steamid": "Player_7"
         },
         {
             "tick": 2740,
-            "user_name": "Player_8",
             "user_steamid": "Player_8"
         },
         {
             "tick": 2774,
-            "user_name": "Player_7",
             "user_steamid": "Player_7"
         },
         {
             "tick": 2788,
-            "user_name": "Player_8",
             "user_steamid": "Player_8"
         },
         {
             "tick": 2821,
-            "user_name": "Player_7",
             "user_steamid": "Player_7"
         },
         {
             "tick": 2829,
-            "user_name": "Player_8",
             "user_steamid": "Player_8"
         },
         {
             "tick": 3224,
-            "user_name": "Player_8",
             "user_steamid": "Player_8"
         },
         {
             "tick": 3271,
-            "user_name": "Player_8",
             "user_steamid": "Player_8"
         },
         {
             "tick": 3319,
-            "user_name": "Player_8",
             "user_steamid": "Player_8"
         },
         {
             "tick": 3369,
-            "user_name": "Player_8",
             "user_steamid": "Player_8"
         }
     ],
@@ -1921,146 +1204,20 @@
             "tick": 3352
         }
     ],
-    "bomb_pickup": [
-        {
-            "tick": 65,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4"
-        },
-        {
-            "tick": 624,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3"
-        },
-        {
-            "tick": 976,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        },
-        {
-            "tick": 3371,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        },
-        {
-            "tick": 4068,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        }
-    ],
-    "begin_new_match": [
-        {
-            "tick": 70
-        }
-    ],
-    "rank_update": [
-        {
-            "num_wins": 50,
-            "rank_change": -117.0,
-            "rank_new": 14882,
-            "rank_old": 14999,
-            "rank_type_id": 11,
-            "tick": 3780,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1"
-        },
-        {
-            "num_wins": 242,
-            "rank_change": -123.0,
-            "rank_new": 23154,
-            "rank_old": 23277,
-            "rank_type_id": 11,
-            "tick": 3780,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2"
-        },
-        {
-            "num_wins": 58,
-            "rank_change": -1000.0,
-            "rank_new": 17765,
-            "rank_old": 18765,
-            "rank_type_id": 11,
-            "tick": 3780,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3"
-        },
-        {
-            "num_wins": 91,
-            "rank_change": -111.0,
-            "rank_new": 19889,
-            "rank_old": 20000,
-            "rank_type_id": 11,
-            "tick": 3780,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4"
-        },
-        {
-            "num_wins": 34,
-            "rank_change": -101.0,
-            "rank_new": 17838,
-            "rank_old": 17939,
-            "rank_type_id": 11,
-            "tick": 3780,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5"
-        },
-        {
-            "num_wins": 65,
-            "rank_change": 366.0,
-            "rank_new": 19365,
-            "rank_old": 18999,
-            "rank_type_id": 11,
-            "tick": 3780,
-            "user_name": "Player_6",
-            "user_steamid": "Player_6"
-        },
-        {
-            "num_wins": 89,
-            "rank_change": 246.0,
-            "rank_new": 19234,
-            "rank_old": 18988,
-            "rank_type_id": 11,
-            "tick": 3780,
-            "user_name": "Player_7",
-            "user_steamid": "Player_7"
-        },
-        {
-            "num_wins": 34,
-            "rank_change": 108.0,
-            "rank_new": 19821,
-            "rank_old": 19713,
-            "rank_type_id": 11,
-            "tick": 3780,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8"
-        },
-        {
-            "num_wins": 52,
-            "rank_change": 100.0,
-            "rank_new": 18816,
-            "rank_old": 18716,
-            "rank_type_id": 11,
-            "tick": 3780,
-            "user_name": "Player_9",
-            "user_steamid": "Player_9"
-        },
-        {
-            "num_wins": 54,
-            "rank_change": 370.0,
-            "rank_new": 17064,
-            "rank_old": 16694,
-            "rank_type_id": 11,
-            "tick": 3780,
-            "user_name": "Player_10",
-            "user_steamid": "Player_10"
-        }
-    ],
     "buytime_ended": [
         {
             "tick": 65
         },
         {
             "tick": 3042
+        }
+    ],
+    "round_prestart": [
+        {
+            "tick": 65
+        },
+        {
+            "tick": 3371
         }
     ],
     "round_poststart": [
@@ -2071,110 +1228,591 @@
             "tick": 3371
         }
     ],
-    "player_hurt": [
+    "player_disconnect": [
         {
-            "armor": 100,
-            "attacker_name": "Player_8",
-            "attacker_steamid": "Player_8",
-            "dmg_armor": 0,
-            "dmg_health": 184,
-            "health": 0,
-            "hitgroup": "head",
-            "tick": 2344,
-            "user_name": "Player_2",
-            "user_steamid": "Player_2",
-            "weapon": "deagle"
+            "reason": 2,
+            "tick": 2856,
+            "user_steamid": "Player_3"
         },
         {
-            "armor": 100,
-            "attacker_name": "Player_8",
-            "attacker_steamid": "Player_8",
-            "dmg_armor": 0,
-            "dmg_health": 87,
-            "health": 13,
-            "hitgroup": "head",
-            "tick": 2442,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3",
-            "weapon": "deagle"
+            "reason": 2,
+            "tick": 4061,
+            "user_steamid": "Player_5"
         },
         {
-            "armor": 0,
-            "attacker_name": "Player_7",
-            "attacker_steamid": "Player_7",
-            "dmg_armor": 0,
-            "dmg_health": 11,
-            "health": 89,
-            "hitgroup": "left_leg",
-            "tick": 2451,
-            "user_name": "Player_8",
-            "user_steamid": "Player_8",
-            "weapon": "deagle"
+            "reason": 2,
+            "tick": 4572,
+            "user_steamid": "Player_8"
         },
         {
-            "armor": 100,
-            "attacker_name": "Player_7",
-            "attacker_steamid": "Player_7",
-            "dmg_armor": 0,
-            "dmg_health": 7,
-            "health": 6,
-            "hitgroup": "stomach",
-            "tick": 2451,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3",
-            "weapon": "deagle"
+            "reason": 2,
+            "tick": 4699,
+            "user_steamid": "Player_7"
         },
         {
-            "armor": 100,
-            "attacker_name": "Player_8",
-            "attacker_steamid": "Player_8",
-            "dmg_armor": 0,
-            "dmg_health": 20,
-            "health": 0,
-            "hitgroup": "chest",
-            "tick": 2460,
-            "user_name": "Player_3",
-            "user_steamid": "Player_3",
-            "weapon": "deagle"
+            "reason": 2,
+            "tick": 4699,
+            "user_steamid": "Player_4"
         },
         {
-            "armor": 100,
-            "attacker_name": "Player_7",
-            "attacker_steamid": "Player_7",
-            "dmg_armor": 0,
-            "dmg_health": 179,
-            "health": 0,
-            "hitgroup": "head",
-            "tick": 2611,
-            "user_name": "Player_5",
-            "user_steamid": "Player_5",
-            "weapon": "deagle"
+            "reason": 2,
+            "tick": 4699,
+            "user_steamid": "Player_2"
         },
         {
-            "armor": 100,
-            "attacker_name": "Player_6",
-            "attacker_steamid": "Player_6",
-            "dmg_armor": 0,
-            "dmg_health": 112,
-            "health": 0,
-            "hitgroup": "head",
-            "tick": 2665,
-            "user_name": "Player_4",
-            "user_steamid": "Player_4",
-            "weapon": "hkp2000"
+            "reason": 2,
+            "tick": 4699,
+            "user_steamid": "Player_9"
         },
         {
-            "armor": 100,
-            "attacker_name": "Player_8",
-            "attacker_steamid": "Player_8",
-            "dmg_armor": 0,
-            "dmg_health": 167,
-            "health": 0,
-            "hitgroup": "head",
-            "tick": 2923,
-            "user_name": "Player_1",
-            "user_steamid": "Player_1",
-            "weapon": "deagle"
+            "reason": 2,
+            "tick": 4699,
+            "user_steamid": "Player_10"
+        },
+        {
+            "reason": 2,
+            "tick": 4706,
+            "user_steamid": "Player_6"
+        },
+        {
+            "reason": 2,
+            "tick": 4713,
+            "user_steamid": "Player_1"
+        }
+    ],
+    "item_pickup": [
+        {
+            "defindex": 526,
+            "item": "knife",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_3"
+        },
+        {
+            "defindex": 4,
+            "item": "glock",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_3"
+        },
+        {
+            "defindex": 42,
+            "item": "knife",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_9"
+        },
+        {
+            "defindex": 61,
+            "item": "hkp2000",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_9"
+        },
+        {
+            "defindex": 42,
+            "item": "knife",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_10"
+        },
+        {
+            "defindex": 61,
+            "item": "hkp2000",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_10"
+        },
+        {
+            "defindex": 42,
+            "item": "knife",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_8"
+        },
+        {
+            "defindex": 61,
+            "item": "hkp2000",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_8"
+        },
+        {
+            "defindex": 59,
+            "item": "knife",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_1"
+        },
+        {
+            "defindex": 4,
+            "item": "glock",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_1"
+        },
+        {
+            "defindex": 518,
+            "item": "knife",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_4"
+        },
+        {
+            "defindex": 4,
+            "item": "glock",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_4"
+        },
+        {
+            "defindex": 59,
+            "item": "knife",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_2"
+        },
+        {
+            "defindex": 4,
+            "item": "glock",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_2"
+        },
+        {
+            "defindex": 42,
+            "item": "knife",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_6"
+        },
+        {
+            "defindex": 32,
+            "item": "hkp2000",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_6"
+        },
+        {
+            "defindex": 42,
+            "item": "knife",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_7"
+        },
+        {
+            "defindex": 61,
+            "item": "hkp2000",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_7"
+        },
+        {
+            "defindex": 59,
+            "item": "knife",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_5"
+        },
+        {
+            "defindex": 4,
+            "item": "glock",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_5"
+        },
+        {
+            "defindex": 49,
+            "item": "c4",
+            "silent": false,
+            "tick": 65,
+            "user_steamid": "Player_4"
+        },
+        {
+            "defindex": 50,
+            "item": "vest",
+            "silent": false,
+            "tick": 569,
+            "user_steamid": "Player_2"
+        },
+        {
+            "defindex": 50,
+            "item": "vest",
+            "silent": false,
+            "tick": 622,
+            "user_steamid": "Player_5"
+        },
+        {
+            "defindex": 49,
+            "item": "c4",
+            "silent": false,
+            "tick": 624,
+            "user_steamid": "Player_3"
+        },
+        {
+            "defindex": 50,
+            "item": "vest",
+            "silent": false,
+            "tick": 648,
+            "user_steamid": "Player_4"
+        },
+        {
+            "defindex": 50,
+            "item": "vest",
+            "silent": false,
+            "tick": 648,
+            "user_steamid": "Player_3"
+        },
+        {
+            "defindex": 1,
+            "item": "deagle",
+            "silent": false,
+            "tick": 662,
+            "user_steamid": "Player_8"
+        },
+        {
+            "defindex": 50,
+            "item": "vest",
+            "silent": false,
+            "tick": 813,
+            "user_steamid": "Player_1"
+        },
+        {
+            "defindex": 49,
+            "item": "c4",
+            "silent": false,
+            "tick": 976,
+            "user_steamid": "Player_1"
+        },
+        {
+            "defindex": 1,
+            "item": "deagle",
+            "silent": false,
+            "tick": 1012,
+            "user_steamid": "Player_7"
+        },
+        {
+            "defindex": 50,
+            "item": "vest",
+            "silent": false,
+            "tick": 1916,
+            "user_steamid": "Player_9"
+        },
+        {
+            "defindex": 59,
+            "item": "knife",
+            "silent": false,
+            "tick": 3371,
+            "user_steamid": "Player_1"
+        },
+        {
+            "defindex": 4,
+            "item": "glock",
+            "silent": false,
+            "tick": 3371,
+            "user_steamid": "Player_1"
+        },
+        {
+            "defindex": 518,
+            "item": "knife",
+            "silent": false,
+            "tick": 3371,
+            "user_steamid": "Player_4"
+        },
+        {
+            "defindex": 4,
+            "item": "glock",
+            "silent": false,
+            "tick": 3371,
+            "user_steamid": "Player_4"
+        },
+        {
+            "defindex": 59,
+            "item": "knife",
+            "silent": false,
+            "tick": 3371,
+            "user_steamid": "Player_2"
+        },
+        {
+            "defindex": 4,
+            "item": "glock",
+            "silent": false,
+            "tick": 3371,
+            "user_steamid": "Player_2"
+        },
+        {
+            "defindex": 59,
+            "item": "knife",
+            "silent": false,
+            "tick": 3371,
+            "user_steamid": "Player_5"
+        },
+        {
+            "defindex": 4,
+            "item": "glock",
+            "silent": false,
+            "tick": 3371,
+            "user_steamid": "Player_5"
+        },
+        {
+            "defindex": 49,
+            "item": "c4",
+            "silent": false,
+            "tick": 3371,
+            "user_steamid": "Player_5"
+        },
+        {
+            "defindex": 40,
+            "item": "ssg08",
+            "silent": false,
+            "tick": 3488,
+            "user_steamid": "Player_8"
+        },
+        {
+            "defindex": 51,
+            "item": "vesthelm",
+            "silent": false,
+            "tick": 3513,
+            "user_steamid": "Player_8"
+        },
+        {
+            "defindex": 51,
+            "item": "vesthelm",
+            "silent": false,
+            "tick": 3677,
+            "user_steamid": "Player_10"
+        },
+        {
+            "defindex": 40,
+            "item": "ssg08",
+            "silent": false,
+            "tick": 3712,
+            "user_steamid": "Player_10"
+        },
+        {
+            "defindex": 49,
+            "item": "c4",
+            "silent": false,
+            "tick": 4068,
+            "user_steamid": "Player_1"
+        }
+    ],
+    "player_footstep": [
+        {
+            "tick": 1811,
+            "user_steamid": "Player_8"
+        },
+        {
+            "tick": 1831,
+            "user_steamid": "Player_7"
+        },
+        {
+            "tick": 1836,
+            "user_steamid": "Player_4"
+        },
+        {
+            "tick": 1913,
+            "user_steamid": "Player_7"
+        },
+        {
+            "tick": 2020,
+            "user_steamid": "Player_5"
+        },
+        {
+            "tick": 2039,
+            "user_steamid": "Player_2"
+        },
+        {
+            "tick": 2098,
+            "user_steamid": "Player_7"
+        },
+        {
+            "tick": 2110,
+            "user_steamid": "Player_5"
+        },
+        {
+            "tick": 2120,
+            "user_steamid": "Player_1"
+        },
+        {
+            "tick": 2145,
+            "user_steamid": "Player_8"
+        },
+        {
+            "tick": 2154,
+            "user_steamid": "Player_5"
+        },
+        {
+            "tick": 2193,
+            "user_steamid": "Player_8"
+        },
+        {
+            "tick": 2203,
+            "user_steamid": "Player_5"
+        },
+        {
+            "tick": 2231,
+            "user_steamid": "Player_8"
+        },
+        {
+            "tick": 2245,
+            "user_steamid": "Player_1"
+        },
+        {
+            "tick": 2275,
+            "user_steamid": "Player_8"
+        },
+        {
+            "tick": 2296,
+            "user_steamid": "Player_9"
+        },
+        {
+            "tick": 2399,
+            "user_steamid": "Player_9"
+        },
+        {
+            "tick": 2454,
+            "user_steamid": "Player_4"
+        },
+        {
+            "tick": 2509,
+            "user_steamid": "Player_1"
+        },
+        {
+            "tick": 2518,
+            "user_steamid": "Player_7"
+        },
+        {
+            "tick": 2727,
+            "user_steamid": "Player_7"
+        },
+        {
+            "tick": 2740,
+            "user_steamid": "Player_8"
+        },
+        {
+            "tick": 2774,
+            "user_steamid": "Player_7"
+        },
+        {
+            "tick": 2788,
+            "user_steamid": "Player_8"
+        },
+        {
+            "tick": 2829,
+            "user_steamid": "Player_8"
+        },
+        {
+            "tick": 3224,
+            "user_steamid": "Player_8"
+        },
+        {
+            "tick": 3271,
+            "user_steamid": "Player_8"
+        },
+        {
+            "tick": 3319,
+            "user_steamid": "Player_8"
+        },
+        {
+            "tick": 3368,
+            "user_steamid": "Player_8"
+        },
+        {
+            "tick": 3369,
+            "user_steamid": "Player_8"
+        }
+    ],
+    "rank_update": [
+        {
+            "num_wins": 50,
+            "rank_change": -117.0,
+            "rank_new": 14882,
+            "rank_old": 14999,
+            "rank_type_id": 11,
+            "tick": 3780,
+            "user_steamid": "Player_1"
+        },
+        {
+            "num_wins": 242,
+            "rank_change": -123.0,
+            "rank_new": 23154,
+            "rank_old": 23277,
+            "rank_type_id": 11,
+            "tick": 3780,
+            "user_steamid": "Player_2"
+        },
+        {
+            "num_wins": 58,
+            "rank_change": -1000.0,
+            "rank_new": 17765,
+            "rank_old": 18765,
+            "rank_type_id": 11,
+            "tick": 3780,
+            "user_steamid": "Player_3"
+        },
+        {
+            "num_wins": 91,
+            "rank_change": -111.0,
+            "rank_new": 19889,
+            "rank_old": 20000,
+            "rank_type_id": 11,
+            "tick": 3780,
+            "user_steamid": "Player_4"
+        },
+        {
+            "num_wins": 34,
+            "rank_change": -101.0,
+            "rank_new": 17838,
+            "rank_old": 17939,
+            "rank_type_id": 11,
+            "tick": 3780,
+            "user_steamid": "Player_5"
+        },
+        {
+            "num_wins": 65,
+            "rank_change": 366.0,
+            "rank_new": 19365,
+            "rank_old": 18999,
+            "rank_type_id": 11,
+            "tick": 3780,
+            "user_steamid": "Player_6"
+        },
+        {
+            "num_wins": 89,
+            "rank_change": 246.0,
+            "rank_new": 19234,
+            "rank_old": 18988,
+            "rank_type_id": 11,
+            "tick": 3780,
+            "user_steamid": "Player_7"
+        },
+        {
+            "num_wins": 34,
+            "rank_change": 108.0,
+            "rank_new": 19821,
+            "rank_old": 19713,
+            "rank_type_id": 11,
+            "tick": 3780,
+            "user_steamid": "Player_8"
+        },
+        {
+            "num_wins": 52,
+            "rank_change": 100.0,
+            "rank_new": 18816,
+            "rank_old": 18716,
+            "rank_type_id": 11,
+            "tick": 3780,
+            "user_steamid": "Player_9"
+        },
+        {
+            "num_wins": 54,
+            "rank_change": 370.0,
+            "rank_new": 17064,
+            "rank_old": 16694,
+            "rank_type_id": 11,
+            "tick": 3780,
+            "user_steamid": "Player_10"
         }
     ],
     "item_equip": [
@@ -2187,7 +1825,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 47,
-            "user_name": "Player_4",
             "user_steamid": "Player_4",
             "weptype": 0
         },
@@ -2200,7 +1837,6 @@
             "issilenced": false,
             "item": "deagle",
             "tick": 48,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -2213,7 +1849,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 53,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -2226,7 +1861,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 57,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 1
         },
@@ -2239,7 +1873,6 @@
             "issilenced": false,
             "item": "deagle",
             "tick": 61,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -2252,7 +1885,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 65,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -2265,7 +1897,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 65,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -2278,7 +1909,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 65,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -2291,7 +1921,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 65,
-            "user_name": "Player_9",
             "user_steamid": "Player_9",
             "weptype": 0
         },
@@ -2304,7 +1933,6 @@
             "issilenced": true,
             "item": "hkp2000",
             "tick": 65,
-            "user_name": "Player_9",
             "user_steamid": "Player_9",
             "weptype": 1
         },
@@ -2317,7 +1945,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 65,
-            "user_name": "Player_10",
             "user_steamid": "Player_10",
             "weptype": 0
         },
@@ -2330,7 +1957,6 @@
             "issilenced": true,
             "item": "hkp2000",
             "tick": 65,
-            "user_name": "Player_10",
             "user_steamid": "Player_10",
             "weptype": 1
         },
@@ -2343,7 +1969,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 65,
-            "user_name": "Player_8",
             "user_steamid": "Player_8",
             "weptype": 0
         },
@@ -2356,7 +1981,6 @@
             "issilenced": true,
             "item": "hkp2000",
             "tick": 65,
-            "user_name": "Player_8",
             "user_steamid": "Player_8",
             "weptype": 1
         },
@@ -2369,7 +1993,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 65,
-            "user_name": "Player_1",
             "user_steamid": "Player_1",
             "weptype": 0
         },
@@ -2382,7 +2005,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 65,
-            "user_name": "Player_1",
             "user_steamid": "Player_1",
             "weptype": 1
         },
@@ -2395,7 +2017,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 65,
-            "user_name": "Player_4",
             "user_steamid": "Player_4",
             "weptype": 0
         },
@@ -2408,7 +2029,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 65,
-            "user_name": "Player_4",
             "user_steamid": "Player_4",
             "weptype": 1
         },
@@ -2421,7 +2041,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 65,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -2434,7 +2053,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 65,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -2447,7 +2065,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 65,
-            "user_name": "Player_6",
             "user_steamid": "Player_6",
             "weptype": 0
         },
@@ -2460,7 +2077,6 @@
             "issilenced": false,
             "item": "hkp2000",
             "tick": 65,
-            "user_name": "Player_6",
             "user_steamid": "Player_6",
             "weptype": 1
         },
@@ -2473,7 +2089,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 65,
-            "user_name": "Player_7",
             "user_steamid": "Player_7",
             "weptype": 0
         },
@@ -2486,7 +2101,6 @@
             "issilenced": true,
             "item": "hkp2000",
             "tick": 65,
-            "user_name": "Player_7",
             "user_steamid": "Player_7",
             "weptype": 1
         },
@@ -2499,7 +2113,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 65,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 0
         },
@@ -2512,7 +2125,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 65,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 1
         },
@@ -2525,7 +2137,6 @@
             "issilenced": false,
             "item": "c4",
             "tick": 65,
-            "user_name": "Player_4",
             "user_steamid": "Player_4",
             "weptype": 7
         },
@@ -2538,7 +2149,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 530,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -2551,7 +2161,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 541,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -2564,7 +2173,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 544,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -2577,7 +2185,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 545,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -2590,7 +2197,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 548,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -2603,7 +2209,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 556,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -2616,7 +2221,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 562,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -2629,7 +2233,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 568,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -2642,7 +2245,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 576,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -2655,7 +2257,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 588,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -2668,7 +2269,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 599,
-            "user_name": "Player_4",
             "user_steamid": "Player_4",
             "weptype": 1
         },
@@ -2681,7 +2281,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 610,
-            "user_name": "Player_4",
             "user_steamid": "Player_4",
             "weptype": 0
         },
@@ -2694,7 +2293,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 656,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 0
         },
@@ -2707,7 +2305,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 662,
-            "user_name": "Player_8",
             "user_steamid": "Player_8",
             "weptype": 0
         },
@@ -2720,7 +2317,6 @@
             "issilenced": false,
             "item": "deagle",
             "tick": 662,
-            "user_name": "Player_8",
             "user_steamid": "Player_8",
             "weptype": 1
         },
@@ -2733,7 +2329,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 668,
-            "user_name": "Player_4",
             "user_steamid": "Player_4",
             "weptype": 1
         },
@@ -2746,7 +2341,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 691,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 1
         },
@@ -2759,7 +2353,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 695,
-            "user_name": "Player_1",
             "user_steamid": "Player_1",
             "weptype": 0
         },
@@ -2772,7 +2365,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 710,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -2785,7 +2377,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 714,
-            "user_name": "Player_8",
             "user_steamid": "Player_8",
             "weptype": 0
         },
@@ -2798,7 +2389,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 715,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -2811,7 +2401,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 723,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -2824,7 +2413,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 727,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 0
         },
@@ -2837,7 +2425,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 729,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -2850,7 +2437,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 734,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -2863,7 +2449,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 742,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -2876,7 +2461,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 749,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -2889,7 +2473,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 842,
-            "user_name": "Player_1",
             "user_steamid": "Player_1",
             "weptype": 1
         },
@@ -2902,7 +2485,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 843,
-            "user_name": "Player_1",
             "user_steamid": "Player_1",
             "weptype": 0
         },
@@ -2915,7 +2497,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 845,
-            "user_name": "Player_1",
             "user_steamid": "Player_1",
             "weptype": 1
         },
@@ -2928,7 +2509,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 865,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -2941,7 +2521,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 891,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -2954,7 +2533,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 892,
-            "user_name": "Player_1",
             "user_steamid": "Player_1",
             "weptype": 0
         },
@@ -2967,7 +2545,6 @@
             "issilenced": false,
             "item": "c4",
             "tick": 924,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 7
         },
@@ -2980,7 +2557,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 939,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -2993,7 +2569,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 948,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -3006,7 +2581,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 951,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -3019,7 +2593,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 951,
-            "user_name": "Player_4",
             "user_steamid": "Player_4",
             "weptype": 0
         },
@@ -3032,7 +2605,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 969,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -3045,7 +2617,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 986,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -3058,7 +2629,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 993,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -3071,7 +2641,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1011,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -3084,7 +2653,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1012,
-            "user_name": "Player_7",
             "user_steamid": "Player_7",
             "weptype": 0
         },
@@ -3097,7 +2665,6 @@
             "issilenced": false,
             "item": "deagle",
             "tick": 1012,
-            "user_name": "Player_7",
             "user_steamid": "Player_7",
             "weptype": 1
         },
@@ -3110,7 +2677,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1076,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -3123,7 +2689,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1093,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -3136,7 +2701,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1097,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -3149,7 +2713,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1147,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -3162,7 +2725,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1186,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -3175,7 +2737,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1204,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -3188,7 +2749,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1209,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -3201,7 +2761,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1222,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -3214,7 +2773,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1229,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -3227,7 +2785,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1247,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -3240,7 +2797,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1270,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -3253,7 +2809,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1357,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -3266,7 +2821,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1373,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -3279,7 +2833,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1387,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -3292,7 +2845,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1418,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -3305,7 +2857,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1427,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -3318,7 +2869,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1486,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -3331,7 +2881,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1501,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -3344,7 +2893,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1509,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -3357,7 +2905,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1514,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -3370,7 +2917,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1521,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -3383,7 +2929,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1526,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -3396,7 +2941,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1533,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -3409,7 +2953,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1539,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -3422,7 +2965,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1545,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -3435,7 +2977,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1566,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -3448,7 +2989,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1619,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -3461,7 +3001,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1662,
-            "user_name": "Player_7",
             "user_steamid": "Player_7",
             "weptype": 0
         },
@@ -3474,7 +3013,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1677,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -3487,7 +3025,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1684,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -3500,7 +3037,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1705,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -3513,7 +3049,6 @@
             "issilenced": false,
             "item": "deagle",
             "tick": 1827,
-            "user_name": "Player_8",
             "user_steamid": "Player_8",
             "weptype": 1
         },
@@ -3526,7 +3061,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1935,
-            "user_name": "Player_9",
             "user_steamid": "Player_9",
             "weptype": 0
         },
@@ -3539,7 +3073,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1980,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 1
         },
@@ -3552,7 +3085,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1981,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 0
         },
@@ -3565,7 +3097,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 1984,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 1
         },
@@ -3578,7 +3109,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 1998,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 0
         },
@@ -3591,7 +3121,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 2053,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -3604,7 +3133,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 2058,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 0
         },
@@ -3617,7 +3145,6 @@
             "issilenced": true,
             "item": "hkp2000",
             "tick": 2073,
-            "user_name": "Player_9",
             "user_steamid": "Player_9",
             "weptype": 1
         },
@@ -3630,7 +3157,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 2111,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -3643,7 +3169,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 2114,
-            "user_name": "Player_4",
             "user_steamid": "Player_4",
             "weptype": 1
         },
@@ -3656,7 +3181,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 2118,
-            "user_name": "Player_8",
             "user_steamid": "Player_8",
             "weptype": 0
         },
@@ -3669,7 +3193,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 2119,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 1
         },
@@ -3682,7 +3205,6 @@
             "issilenced": false,
             "item": "deagle",
             "tick": 2155,
-            "user_name": "Player_7",
             "user_steamid": "Player_7",
             "weptype": 1
         },
@@ -3695,7 +3217,6 @@
             "issilenced": false,
             "item": "deagle",
             "tick": 2170,
-            "user_name": "Player_8",
             "user_steamid": "Player_8",
             "weptype": 1
         },
@@ -3708,7 +3229,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 2224,
-            "user_name": "Player_3",
             "user_steamid": "Player_3",
             "weptype": 1
         },
@@ -3721,7 +3241,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 2247,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 0
         },
@@ -3734,7 +3253,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 2266,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 1
         },
@@ -3747,7 +3265,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 2268,
-            "user_name": "Player_9",
             "user_steamid": "Player_9",
             "weptype": 0
         },
@@ -3760,7 +3277,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 2424,
-            "user_name": "Player_4",
             "user_steamid": "Player_4",
             "weptype": 0
         },
@@ -3773,7 +3289,6 @@
             "issilenced": true,
             "item": "hkp2000",
             "tick": 2433,
-            "user_name": "Player_9",
             "user_steamid": "Player_9",
             "weptype": 1
         },
@@ -3786,7 +3301,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 2470,
-            "user_name": "Player_4",
             "user_steamid": "Player_4",
             "weptype": 1
         },
@@ -3799,7 +3313,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 2502,
-            "user_name": "Player_7",
             "user_steamid": "Player_7",
             "weptype": 0
         },
@@ -3812,7 +3325,6 @@
             "issilenced": false,
             "item": "deagle",
             "tick": 2534,
-            "user_name": "Player_7",
             "user_steamid": "Player_7",
             "weptype": 1
         },
@@ -3825,7 +3337,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 2621,
-            "user_name": "Player_1",
             "user_steamid": "Player_1",
             "weptype": 1
         },
@@ -3838,7 +3349,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 2962,
-            "user_name": "Player_8",
             "user_steamid": "Player_8",
             "weptype": 0
         },
@@ -3851,7 +3361,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 2973,
-            "user_name": "Player_9",
             "user_steamid": "Player_9",
             "weptype": 0
         },
@@ -3864,7 +3373,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 3063,
-            "user_name": "Player_7",
             "user_steamid": "Player_7",
             "weptype": 0
         },
@@ -3877,7 +3385,6 @@
             "issilenced": false,
             "item": "deagle",
             "tick": 3077,
-            "user_name": "Player_8",
             "user_steamid": "Player_8",
             "weptype": 1
         },
@@ -3890,7 +3397,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 3101,
-            "user_name": "Player_8",
             "user_steamid": "Player_8",
             "weptype": 0
         },
@@ -3903,7 +3409,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 3371,
-            "user_name": "Player_1",
             "user_steamid": "Player_1",
             "weptype": 0
         },
@@ -3916,7 +3421,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 3371,
-            "user_name": "Player_1",
             "user_steamid": "Player_1",
             "weptype": 1
         },
@@ -3929,7 +3433,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 3371,
-            "user_name": "Player_4",
             "user_steamid": "Player_4",
             "weptype": 0
         },
@@ -3942,7 +3445,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 3371,
-            "user_name": "Player_4",
             "user_steamid": "Player_4",
             "weptype": 1
         },
@@ -3955,7 +3457,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 3371,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -3968,7 +3469,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 3371,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -3981,7 +3481,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 3371,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 0
         },
@@ -3994,7 +3493,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 3371,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 1
         },
@@ -4007,7 +3505,6 @@
             "issilenced": false,
             "item": "c4",
             "tick": 3371,
-            "user_name": "Player_5",
             "user_steamid": "Player_5",
             "weptype": 7
         },
@@ -4020,7 +3517,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 3394,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         },
@@ -4033,7 +3529,6 @@
             "issilenced": false,
             "item": "glock",
             "tick": 3412,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 1
         },
@@ -4046,7 +3541,6 @@
             "issilenced": false,
             "item": "deagle",
             "tick": 3414,
-            "user_name": "Player_8",
             "user_steamid": "Player_8",
             "weptype": 1
         },
@@ -4059,7 +3553,6 @@
             "issilenced": false,
             "item": "ssg08",
             "tick": 3488,
-            "user_name": "Player_8",
             "user_steamid": "Player_8",
             "weptype": 5
         },
@@ -4072,7 +3565,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 3518,
-            "user_name": "Player_4",
             "user_steamid": "Player_4",
             "weptype": 0
         },
@@ -4085,7 +3577,6 @@
             "issilenced": false,
             "item": "knife",
             "tick": 3556,
-            "user_name": "Player_8",
             "user_steamid": "Player_8",
             "weptype": 0
         },
@@ -4098,7 +3589,6 @@
             "issilenced": false,
             "item": "ssg08",
             "tick": 3712,
-            "user_name": "Player_10",
             "user_steamid": "Player_10",
             "weptype": 5
         },
@@ -4111,26 +3601,102 @@
             "issilenced": false,
             "item": "knife",
             "tick": 3833,
-            "user_name": "Player_2",
             "user_steamid": "Player_2",
             "weptype": 0
         }
     ],
-    "hltv_versioninfo": [
+    "begin_new_match": [
         {
-            "tick": 1,
-            "version": 1
+            "tick": 70
+        }
+    ],
+    "player_spawn": [
+        {
+            "tick": 65,
+            "user_steamid": "Player_3"
+        },
+        {
+            "tick": 65,
+            "user_steamid": "Player_9"
+        },
+        {
+            "tick": 65,
+            "user_steamid": "Player_10"
+        },
+        {
+            "tick": 65,
+            "user_steamid": "Player_8"
+        },
+        {
+            "tick": 65,
+            "user_steamid": "Player_1"
+        },
+        {
+            "tick": 65,
+            "user_steamid": "Player_4"
+        },
+        {
+            "tick": 65,
+            "user_steamid": "Player_2"
+        },
+        {
+            "tick": 65,
+            "user_steamid": "Player_6"
+        },
+        {
+            "tick": 65,
+            "user_steamid": "Player_7"
+        },
+        {
+            "tick": 65,
+            "user_steamid": "Player_5"
+        },
+        {
+            "tick": 3371,
+            "user_steamid": "Player_9"
+        },
+        {
+            "tick": 3371,
+            "user_steamid": "Player_10"
+        },
+        {
+            "tick": 3371,
+            "user_steamid": "Player_8"
+        },
+        {
+            "tick": 3371,
+            "user_steamid": "Player_1"
+        },
+        {
+            "tick": 3371,
+            "user_steamid": "Player_4"
+        },
+        {
+            "tick": 3371,
+            "user_steamid": "Player_2"
+        },
+        {
+            "tick": 3371,
+            "user_steamid": "Player_6"
+        },
+        {
+            "tick": 3371,
+            "user_steamid": "Player_7"
+        },
+        {
+            "tick": 3371,
+            "user_steamid": "Player_5"
         }
     ],
     "cheaters": [
         {
-            "name": "Player_6"
+            "steamid": "Player_6"
         },
         {
-            "name": "Player_7"
+            "steamid": "Player_7"
         },
         {
-            "name": "Player_8"
+            "steamid": "Player_8"
         }
     ],
     "CSstats_info": [
