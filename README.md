@@ -19,7 +19,7 @@ size_categories:
 
 ## Overview
 
-The **CS2CD (Counter-Strike 2 Cheat Detection)** dataset is an anonymised dataset comprised of Counter-Strike 2(CS2) gameplay at a variety of skill-levels with cheater annotations. This dataset contains NUMBER CS2 matches with no cheater present, and NUMBER matches CS2 matches with at least one cheater present.
+The **CS2CD (Counter-Strike 2 Cheat Detection)** dataset is an anonymised dataset comprised of Counter-Strike 2(CS2) gameplay at a variety of skill-levels with cheater annotations. This dataset contains 478 CS2 matches with no cheater present, and 317 matches CS2 matches with at least one cheater present.
 
 ## Dataset structure
 
@@ -32,7 +32,7 @@ The dataset is partitioned into data with at least one cheater present, and data
 
   <p>Hence, it was decided, that resources were best spent with labeling data containing at least one VAC-banned player.</p>
 
-  <p>For more information regarding the data collection see <a href="https://help.steampowered.com/en/faqs/view/00EF-D679-C76A-C185" target="_blank" style="color: #007bff; text-decoration: underline;">Counter-Strike 2 Game data collection with cheat labelling</a> by Mille Mei Zhen Loo & Gert Lužkov.</p>
+  <p>For more information regarding the data collection see <a href="https://github.com/Pinkvinus/CS2-demo-scraper/blob/main/Research_project___Counter_Strike_2_dataset_with_labels.pdf" target="_blank" style="color: #007bff; text-decoration: underline;">Counter-Strike 2 Game data collection with cheat labelling</a> by Mille Mei Zhen Loo & Gert Lužkov.</p>
 </div>
 
 
