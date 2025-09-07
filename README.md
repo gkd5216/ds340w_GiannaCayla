@@ -169,3 +169,15 @@ CS2CD is well suited for the following tasks
 ## Acknowledgements
 
 A big heartfelt thanks to [Paolo Burelli](http://paoloburelli.com/) for supervising the project.
+
+## Citation
+
+```bibtex
+@misc{mille_mei_zhen_loo_2025,
+  author       = { Mille Mei Zhen Loo and Gert Lužkov },
+  title        = { CS2CD.Counter-Strike_2_Cheat_Detection (Revision 44e5129) },
+  year         = 2025,
+  url          = { https://huggingface.co/datasets/CS2CD/CS2CD.Counter-Strike_2_Cheat_Detection },
+  doi          = { 10.57967/hf/5654 },
+  publisher    = { Hugging Face }
+}
