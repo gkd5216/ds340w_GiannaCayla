@@ -2,7 +2,6 @@
 import os
 import glob
 import pandas as pd
-import numpy as np
 import pyarrow.parquet as pq
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -53,12 +52,16 @@ def load_and_label(path, label, limit=15, n_rows=200000):
     print(f"Combined {len(combined):,} rows for label {label}")
     return combined
 
+# Keeps the steamids separate by dataset
 df_cheater = load_and_label(os.path.join(DATASET_ROOT, "with_cheater_present"), 1)
 df_clean   = load_and_label(os.path.join(DATASET_ROOT, "no_cheater_present"), 0)
+df_cheater["steamid"] = "C_" + df_cheater["steamid"].astype(str)
+df_clean["steamid"] = "N_" + df_clean["steamid"].astype(str)
 df = pd.concat([df_cheater, df_clean], ignore_index=True)
+
 print(f"\n Total dataset size: {len(df):,} rows\n")
 
-## Tidy dataframe and feature engineering
+# Tidy dataframe and feature engineering
 feature_cols = [
     "velocity", "velocity_X", "velocity_Y", "velocity_Z",
     "pitch", "yaw", "is_airborne", "is_scoped", "is_alive", "X", "Y", "Z"
@@ -91,7 +94,7 @@ labels = df.groupby("steamid")["is_cheater"].max().reset_index()
 agg = agg.merge(labels, on="steamid", how="left").dropna(subset=["is_cheater"])
 print(f"Aggregated dataset shape: {agg.shape}")
 
-## Split data into Train/Test/Validation sets
+# Split data into Train/Test/Validation sets
 X = agg.drop(columns=["steamid","is_cheater"])
 y = agg["is_cheater"].astype(int)
 
@@ -109,13 +112,13 @@ if y_train.nunique() < 2:
 if y_test.nunique() < 2:
     print("⚠️ Only one class in y_test. Model evaluation will be limited.")
 
-## Train Random Forest and Logistic Regression Models
+# Train Random Forest and Logistic Regression Models
 
-# Random Forest
+## Random Forest
 rf = RandomForestClassifier(n_estimators=200, max_depth=8, class_weight="balanced", random_state=42)
 rf.fit(X_train, y_train)
 
-# Logistic Regression
+## Logistic Regression
 lr = LogisticRegression(max_iter=1000, class_weight="balanced")
 lr.fit(X_train, y_train)
 
@@ -135,7 +138,7 @@ imp.tail(10).plot(kind="barh")
 plt.title("Top 10 Feature Importances – Random Forest")
 plt.show()
 
-## Evaluation and Visualization
+# Evaluation and Visualization
 def evaluate_model(model, name):
     preds = model.predict(X_test)
     proba = model.predict_proba(X_test)[:, 1]
@@ -149,8 +152,7 @@ def evaluate_model(model, name):
 auc_rf = evaluate_model(rf, "Random Forest")
 auc_lr = evaluate_model(lr, "Logistic Regression")
 
-## Feature Importance
-
+# Feature Importance
 imp = pd.Series(rf.feature_importances_, index=X.columns).sort_values()
 plt.figure(figsize=(7, 5))
 imp.tail(10).plot(kind="barh")
