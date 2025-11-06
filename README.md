@@ -1,27 +1,12 @@
----
-license: cc-by-4.0
-language:
-  - en
-tags:
-  - Game
-  - Counter-Strike
-  - CS2
-  - Counter-Strike 2
-  - Video Game
-  - Cheat Detection
-  - Gameplay
-pretty_name: Counter-Strike 2 Cheat Detection
-size_categories:
-  - n<1K
----
+# DS 340W Research Paper Project - Gianna DeLorenzo, Cayla Stevenson
 
-# Counter Strike 2 Cheat Detection Dataset
+## Counter Strike 2 Cheat Detection Dataset
 
-## Overview
+### Overview
 
 The **CS2CD (Counter-Strike 2 Cheat Detection)** dataset is an anonymised dataset comprised of Counter-Strike 2(CS2) gameplay at a variety of skill-levels with cheater annotations. This dataset contains 478 CS2 matches with no cheater present, and 317 matches CS2 matches with at least one cheater present.
 
-## Dataset structure
+### Dataset structure
 
 The dataset is partitioned into data with at least one cheater present, and data with no cheaters present. 
 
@@ -36,13 +21,13 @@ The dataset is partitioned into data with at least one cheater present, and data
 </div>
 
 
-### Root folder
+#### Root folder
 
 - `no_cheater_present` : Folder containing data where no cheaters are present.
 - `with_cheater_present` : Folder containing data with at least one cheater present.
 - `README.md`: This documentation file
 
-### Data files
+#### Data files
 
 Each data point(counter strike match) is captured in 2 files: 
 
@@ -51,7 +36,7 @@ Each data point(counter strike match) is captured in 2 files:
 | `.csv`   | Ticks   | The data is contained as a series of events, also known as ticks. Each tick has 10 rows containing data on the 10 players. |
 | `.json`  | Events  | The data is stored by the event type. Each occurrence of an event consequently stores the tick, in which the event occurred. Note, that this file also contains general game information, such as the cheater labeling, map, and server settings. |
 
-## Loading dataset
+### Loading dataset
 
 The following piece of code loads a single data point in the dataset. The resulting types are the same as if they were a demo parsed by demoparser2.
 
@@ -82,11 +67,11 @@ match_0_events = json_2_eventlist(filepath=filepath+".json")
 ```
 
 
-## Data source
+### Data source
 
 The data is scraped from the website [csstats.gg](https://csstats.gg/) using the `ALL MATCHES` page as an entry point for scraping. This resulted in NUMBER `.dem` files. 
 
-## Data processing
+### Data processing
 
 Due to `.dem` files containing sensitive information regarding the users. the data required anonymisation before publishing. This meant extracting the data from the `.dem` files and censoring sensitive data.
 
@@ -97,7 +82,7 @@ In order to extract the data from these files the python library demoparser2 was
 
 Loading of the data as recommended in the section "[Loading dataset](#loading-dataset)" returns these types as well.
 
-### Data anonymisation
+#### Data anonymisation
 
 The following is the complete list of **data removed** from the dataset:
 
@@ -149,13 +134,13 @@ Data added from scraping process:
 - `match_making_type`
 - `cheater`
 
-## Usage notes
+### Usage notes
 
 - The dataset is formated in UTF-8 encoding.
 - Researchers should **cite this dataset appropriately** in publications
 - In the case that all players from a single team quits the match, a single bot is spawned to fill the empty team. This may result in kills where no steamid is present. This is due to the bot not having a steamid.
 
-## Applications
+### Applications
 
 CS2CD is well suited for the following tasks
 
@@ -166,11 +151,11 @@ CS2CD is well suited for the following tasks
 - Weapon effectiveness analysis
 - Strategy analysis
 
-## Acknowledgements
+### Acknowledgements
 
 A big heartfelt thanks to [Paolo Burelli](http://paoloburelli.com/) for supervising the project.
 
-## Citation
+### Citation
 
 ```bibtex
 @misc{mille_mei_zhen_loo_2025,
