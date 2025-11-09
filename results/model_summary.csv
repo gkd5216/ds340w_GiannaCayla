@@ -1,0 +1,3 @@
+Model,AUC
+Random Forest,0.664
+Logistic Regression,0.615
