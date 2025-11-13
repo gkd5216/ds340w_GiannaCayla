@@ -1,7 +1,10 @@
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
 import torch
 import torch.nn as nn
 import math
-from training.hyperparameters import pe_scaling
+from Transformer.training.hyperparameters import pe_scaling
     
 class PositionalEncoding(nn.Module):
     def __init__(self, d_model, max_len):

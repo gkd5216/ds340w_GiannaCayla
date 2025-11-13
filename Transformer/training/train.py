@@ -1,20 +1,22 @@
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
 import torch
 from torch import nn
 from torch.utils.data import DataLoader, random_split
-from data.dataset import DataImporter
-from training.evaluate import evaluate
-from training.scheduler import get_scheduler
-from utils.utils import save_checkpoint
+from Transformer.data.dataset import DataImporter
+from evaluate import evaluate
+from Transformer.training.scheduler import get_scheduler
+from Transformer.utils.utils import save_checkpoint
 from torchinfo import summary
-from training.hyperparameters import seq_len, batch_size, num_epochs, learning_rate, train_size, val_size, test_size, feature_dim, checkpoint_freq
+from Transformer.training.hyperparameters import seq_len, batch_size, num_epochs, learning_rate, train_size, val_size, test_size, feature_dim, checkpoint_freq
 import os
 from collections import Counter
 
 
 def train_model(model, project_root):
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    if device.type != "cuda":
-        raise Exception("CUDA Could not be activated!")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu") 
+    print(f"Using device: {device}")
     checkpoint_dir = os.path.join(project_root, "checkpoints_new")
     
     seed = 42

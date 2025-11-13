@@ -1,12 +1,12 @@
 import torch
 from torch.utils.data import DataLoader, random_split
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, confusion_matrix
-from models.Transformer_v1 import Transformer_V1
+from Transformer.models.Transformer_v1 import Transformer_V1
 from data.dataset import DataImporter
 from pathlib import Path
 import os
 import time
-from training.hyperparameters import feature_dim, seq_len, number_heads, num_layers, dim_feedforward, dropout, test_size, train_size, val_size, batch_size
+from Transformer.training.hyperparameters import feature_dim, seq_len, number_heads, num_layers, dim_feedforward, dropout, test_size, train_size, val_size, batch_size
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 if device.type != "cuda":

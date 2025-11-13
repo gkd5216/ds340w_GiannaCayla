@@ -1,9 +1,12 @@
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
 import random
 import os
 import torch
 from pathlib import Path
 from torch.utils.data import Dataset, DataLoader
-from training.hyperparameters import train_size, test_size, val_size
+from Transformer.training.hyperparameters import train_size, test_size, val_size
 import pandas as pd
 
 class DataImporter(Dataset):
@@ -15,8 +18,8 @@ class DataImporter(Dataset):
 
         data_dir = Path(__file__).resolve().parent
         
-        cheater_dir = data_dir / "cheater"
-        not_cheater_dir = data_dir / "not_cheater"
+        cheater_dir = Path("data/context_windows_512/not_cheater")
+        not_cheater_dir = Path("data_shrunk/with_cheater_present")
 
         cheater_files = self._group_files_by_file_int(cheater_dir)
         non_cheater_files = self._group_files_by_file_int(not_cheater_dir)
@@ -52,7 +55,11 @@ class DataImporter(Dataset):
         for file in os.listdir(directory):
             if not file.endswith('.parquet'):
                 continue
+            print(f"Checking file: {file}")
             parts = file.split('-')
+            if len(parts) < 3:
+                print(f"Skipping malformed filename: {file}")
+                continue
             file_int = parts[2].replace("file_", "")
             key = f"{parts[0]}-{parts[1]}-file_{file_int}"
             grouped.setdefault(key, []).append(directory / file)

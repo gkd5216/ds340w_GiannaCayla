@@ -1,30 +1,45 @@
-import pandas as pd
-import json
 import os
-import matplotlib.pyplot as plt
+import pandas as pd
 import numpy as np
 
-souce_dir = r"C:\Users\gluzk\Desktop\context_windows_512\cheater"
-target_dir = r"C:\Users\gluzk\Desktop\context_windows_256\cheater"
+# Define input/output directories
+base_input_dir = os.path.join("data")
+base_output_dir = os.path.join("data_shrunk")
 
-files = os.listdir(souce_dir)
+subfolders = ["with_cheater_present", "no_cheater_present"]
 
-for file in files:
-    df = pd.read_parquet(souce_dir + "\\" + file)
-    df_shrink = df.iloc[224:480].reset_index(drop=True)
-    df_shrink = df_shrink.astype(np.float32)
-    df_shrink.to_parquet(os.path.join(target_dir, file), index=False)
+# Context window cropping
+start_idx = 224
+end_idx = 480  # not inclusive
 
-print("halfway")
+for folder in subfolders:
+    input_dir = os.path.join(base_input_dir, folder)
+    output_dir = os.path.join(base_output_dir, folder)
+    os.makedirs(output_dir, exist_ok=True)
 
+    files = [f for f in os.listdir(input_dir) if f.endswith(".parquet")]
 
-souce_dir = r"C:\Users\gluzk\Desktop\context_windows_512\not_cheater"
-target_dir = r"C:\Users\gluzk\Desktop\context_windows_256\not_cheater"
+    for idx, file in enumerate(files):
+        input_path = os.path.join(input_dir, file)
+        df = pd.read_parquet(input_path)
 
-files = os.listdir(souce_dir)
+        if len(df) < end_idx:
+            print(f"⚠️ Skipping {file}: too short ({len(df)} rows)")
+            continue
 
-for file in files:
-    df = pd.read_parquet(souce_dir + "\\" + file)
-    df_shrink = df.iloc[224:480].reset_index(drop=True)
-    df_shrink = df_shrink.astype(np.float32)
-    df_shrink.to_parquet(os.path.join(target_dir, file), index=False)
+        df_shrunk = df.iloc[start_idx:end_idx].reset_index(drop=True)
+
+        # ✅ Cast only numeric (float/int) columns
+        for col in df_shrunk.columns:
+            if pd.api.types.is_numeric_dtype(df_shrunk[col]):
+                try:
+                    df_shrunk[col] = df_shrunk[col].astype(np.float32)
+                except Exception as e:
+                    print(f"⚠️ Could not convert column {col} in {file}: {e}")
+
+        output_path = os.path.join(output_dir, file)
+        df_shrunk.to_parquet(output_path, index=False)
+
+        print(f"[{folder}] {idx+1}/{len(files)} → {file} cropped and saved.")
+
+print("\n✅ All valid .parquet files have been safely shrunk.")

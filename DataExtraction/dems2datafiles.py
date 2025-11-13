@@ -13,7 +13,7 @@ OUTPUT_PATH = "../CS2CD.Counter-Strike_2_Cheat_Detection"
 CHEATER_PATH = OUTPUT_PATH + "/with_cheater_present"
 NO_CHEATER_PATH = OUTPUT_PATH + "/no_cheater_present"
 
-SCRAPE_PATH = "./Demo_data/cs_scrape_2025-04-03.csv"
+SCRAPE_PATH = "Data/demo_metadata.csv"
 TICK_FILETYPE = ".parquet"
 
 counter_no_cheater = 0
