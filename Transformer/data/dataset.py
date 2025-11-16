@@ -1,11 +1,11 @@
+# Load necessary libraries
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
 import random
-import os
 import torch
 from pathlib import Path
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Dataset
 from Transformer.training.hyperparameters import train_size, test_size, val_size
 import pandas as pd
 
@@ -16,15 +16,15 @@ class DataImporter(Dataset):
         self.transform = transform
         random.seed(seed)
 
-        data_dir = Path(__file__).resolve().parent
-        
-        cheater_dir = Path("data/context_windows_512/not_cheater")
-        not_cheater_dir = Path("data_shrunk/with_cheater_present")
+        # Update paths here if needed
+        cheater_dir = Path("data/full_dataset/with_cheater_present")
+        not_cheater_dir = Path("data/context_windows_512/not_cheater")
 
         cheater_files = self._group_files_by_file_int(cheater_dir)
         non_cheater_files = self._group_files_by_file_int(not_cheater_dir)
 
-        all_keys = list(cheater_files.keys() | non_cheater_files.keys())
+        # Combine all keys from both classes
+        all_keys = list(set(cheater_files.keys()).union(set(non_cheater_files.keys())))
         random.shuffle(all_keys)
 
         total = len(all_keys)
@@ -39,43 +39,94 @@ class DataImporter(Dataset):
             selected_keys = all_keys[val_end:]
 
         for key in selected_keys:
-            for label, file_dict in [(1, cheater_files), (0, non_cheater_files)]:
-                if key in file_dict:
-                    for file_path in file_dict[key]:
-                        if split == 'test' and "_aug" in file_path.name:
-                            continue
-                        self.samples.append((file_path, label))
+            file_sources = []
+            if key in cheater_files:
+                file_sources.append((1, cheater_files[key]))
+            if key in non_cheater_files:
+                file_sources.append((0, non_cheater_files[key]))
+
+            for label, files in file_sources:
+                for file_path in files:
+                    if split == 'test' and "_aug" in file_path.name:
+                        continue
+                    self.samples.append((file_path, label))
+
+        # Print label distribution
+        print(f"Loaded {len(self.samples)} samples for split '{split}'")
+        label_counts = {0: 0, 1: 0}
+        for _, label in self.samples:
+            label_counts[label] += 1
+        print("Label distribution:")
+        for label, count in label_counts.items():
+            print(f"Label {label}: {count}")
 
     def _group_files_by_file_int(self, directory):
-        """
-        Returns a dictionary where key = file_int (e.g., 0 from file_0), 
-        value = list of Path objects for that file_int
-        """
         grouped = {}
+        if not directory.exists():
+            print(f"Directory not found: {directory}")
+            return grouped
         for file in os.listdir(directory):
-            if not file.endswith('.parquet'):
+            if not (file.endswith('.parquet') or file.endswith('.json')):
                 continue
-            print(f"Checking file: {file}")
-            parts = file.split('-')
-            if len(parts) < 3:
+            parts = file.replace('.parquet', '').replace('.json', '').split('-')
+            file_id = None
+            for p in parts:
+                if p.startswith("file_"):
+                    file_id = p.replace("file_", "")
+                    break
+                elif p.isdigit():
+                    file_id = p
+                    break
+            if file_id is None:
                 print(f"Skipping malformed filename: {file}")
                 continue
-            file_int = parts[2].replace("file_", "")
-            key = f"{parts[0]}-{parts[1]}-file_{file_int}"
+            key = f"file_{file_id}"
             grouped.setdefault(key, []).append(directory / file)
         return grouped
+
 
     def __len__(self):
         return len(self.samples)
 
     def __getitem__(self, idx):
         file_path, label = self.samples[idx]
-        df = pd.read_parquet(file_path)
+        try:
+            if file_path.suffix == ".parquet":
+                df = pd.read_parquet(file_path)
+            elif file_path.suffix == ".json":
+                try:
+                    df = pd.read_json(file_path, lines=True)
+                except ValueError:
+                    # fallback: read one line per JSON object if lengths mismatch
+                    df = pd.read_json(file_path, lines=False)
+            else:
+                raise ValueError(f"Unsupported file type: {file_path.suffix}")
 
-        data = torch.tensor(df.values, dtype=torch.float32)
-        label = torch.tensor(label, dtype=torch.float32)
+            # keep only numeric data
+            df = df.select_dtypes(include=["number"]).fillna(0)
+            if df.empty:
+                raise ValueError("Empty numeric DataFrame")
 
-        if self.transform:
-            data = self.transform(data)
+            data = torch.tensor(df.values, dtype=torch.float32)
+            label = torch.tensor(label, dtype=torch.float32)
+            if self.transform:
+                data = self.transform(data)
+            return data, label
 
-        return data, label
+        except Exception as e:
+            print(f"⚠️ Skipped file {file_path.name} due to error: {e}")
+            # return a small zero tensor instead of crashing
+            return torch.zeros((1, 1)), torch.tensor(label, dtype=torch.float32)
+
+    
+if __name__ == "__main__":
+    print("🔍 Testing dataset splits...")
+    for split in ["train", "val", "test"]:
+        ds = DataImporter(split=split)
+        print(f"Split: {split}, total samples = {len(ds)}")
+        labels = [label.item() if hasattr(label, "item") else label for _, label in ds]
+        unique, counts = pd.Series(labels).value_counts().index, pd.Series(labels).value_counts().values
+        print("Label distribution:")
+        for u, c in zip(unique, counts):
+            print(f"  Label {u}: {c}")
+        print("-" * 40)
