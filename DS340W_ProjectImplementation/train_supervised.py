@@ -16,7 +16,7 @@ NON_CHEATER_PATH = os.path.join(DATASET_ROOT, "data", "context_windows_512", "no
 RESULTS_DIR = os.path.join(DATASET_ROOT, "results")
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
-FILES_PER_CLASS = 60
+FILES_PER_CLASS = 75
 ROWS_PER_FILE = 100_000
 
 # Utility Functions
@@ -179,6 +179,25 @@ if __name__ == "__main__":
     })
     summary_path = os.path.join(RESULTS_DIR, "model_summary.csv")
     summary.to_csv(summary_path, index=False)
+
+    import joblib
+
+    rf_path = os.path.join(RESULTS_DIR, "random_forest_model.pkl")
+    lr_path = os.path.join(RESULTS_DIR, "logistic_regression_model.pkl")
+    X_test_path = os.path.join(RESULTS_DIR, "X_test.csv")
+    y_test_path = os.path.join(RESULTS_DIR, "y_test.csv")
+
+    joblib.dump(rf, rf_path)
+    joblib.dump(lr, lr_path)
+    X_test.to_csv(X_test_path, index=False)
+    y_test.to_csv(y_test_path, index=False)
+
+    print(f"\n Saved model artifacts to {RESULTS_DIR}")
+    print(f"  • {rf_path}")
+    print(f"  • {lr_path}")
+    print(f"  • {X_test_path}")
+    print(f"  • {y_test_path}")
+
 
     print("\n Saved model summary:", summary_path)
     print(summary)
