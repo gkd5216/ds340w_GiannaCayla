@@ -1,32 +1,17 @@
-# DS 340W Research Paper Project - Gianna DeLorenzo, Cayla Stevenson
+# DS 340W - Course Project
 
-## Counter Strike 2 Cheat Detection Dataset
+This GitHub repository is for academic purposes only. The materials here are for a course project in Applied Data Science. DS 340W is an Applied Data Science class focused on research projects. 
 
-### Overview
+### Counter Strike 2 Cheat Detection Dataset Overview
 
-The **CS2CD (Counter-Strike 2 Cheat Detection)** dataset is an anonymised dataset comprised of Counter-Strike 2(CS2) gameplay at a variety of skill-levels with cheater annotations. This dataset contains 478 CS2 matches with no cheater present, and 317 matches CS2 matches with at least one cheater present.
+The **CS2CD (Counter-Strike 2 Cheat Detection)** dataset is an anonymized dataset comprised of Counter-Strike 2(CS2) gameplay at a variety of skill-levels with cheater annotations. This dataset contains 478 CS2 matches with no cheater present, and 317 matches CS2 matches with at least one cheater present.
 
-Our project is based on this dataset, but with the use of supervised machine learning models (Logistic Regression & Random Forest instead of Transformer models. We hope to see if this change results in a change, either positive or negative.
-
-### Dataset structure
-
-The dataset is partitioned into data with at least one cheater present, and data with no cheaters present. 
-
-<div style="border:1px solid #ccc; padding: 10px; border-radius: 5px; background-color: #fff3cd; color: #000;">
-  <p><strong style="color: #000">⚠️ Warning: </strong>Data containing no cheaters has not been verified</p>
-  <p>Only files, containing at least one VAC(Valve Anti-cheat)-banned player, have been manually labelled and verified. Hence, <strong style="color: #000">cheaters may be present in the data without cheaters</strong>.</p>
-  <p>When examining a subset containing 50 data points (demos) with no VAC-banned players, it was discovered that in 97.2% of players in these matches were not presenting any cheater-like behaviour. When examining a subset of 50 data points (demos) in the set of matches with with at least one VAC-banned player, it was discovered that the label precission of the "not cheater" label was 55.6%. This is possibly due to CS2 using <a href="https://help.steampowered.com/en/faqs/view/00EF-D679-C76A-C185" target="_blank" style="color: #007bff; text-decoration: underline;">trust factor match making</a>.</p>
-
-  <p>Hence, it was decided, that resources were best spent with labeling data containing at least one VAC-banned player.</p>
-
-  <p>For more information regarding the data collection see <a href="https://github.com/Pinkvinus/CS2-demo-scraper/blob/main/Research_project___Counter_Strike_2_dataset_with_labels.pdf" target="_blank" style="color: #007bff; text-decoration: underline;">Counter-Strike 2 Game data collection with cheat labelling</a> by Mille Mei Zhen Loo & Gert Lužkov.</p>
-</div>
-
+Our project is based on this dataset, but with the use of supervised machine learning models (Logistic Regression & Random Forest instead of Transformer models. We hope to see if this change results in a positive or negative outcome.
 
 #### Root folder
 
-- `no_cheater_present` : Folder containing data where no cheaters are present.
-- `with_cheater_present` : Folder containing data with at least one cheater present.
+- `data/no_cheater_present` : Folder containing data where no cheaters are present.
+- `data/full_dataset/with_cheater_present` : Folder containing data with at least one cheater present.
 - `README.md`: This documentation file
 
 #### Data files
