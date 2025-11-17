@@ -49,20 +49,20 @@ def load_and_label(path, label, limit=FILES_PER_CLASS, n_rows=ROWS_PER_FILE):
 
 def feature_engineering(df):
     print("\n🔍 Inspecting dataset columns...")
-    print(df.columns.tolist()[:20])  # show first 20 just to check
+    print(df.columns.tolist()[:20])  
 
     # Ensure a 'steamid' column exists
     if "steamid" not in df.columns:
-        print("⚠️ No 'steamid' column found — assigning unique IDs per row group.")
+        print("No 'steamid' column found — assigning unique IDs per row group.")
         df["steamid"] = [f"id_{i}" for i in range(len(df))]
 
     # Identify numeric columns (excluding the label)
     numeric_cols = [c for c in df.select_dtypes(include="number").columns if c != "is_cheater"]
 
     if not numeric_cols:
-        raise ValueError("❌ No numeric columns found for aggregation. Please verify dataset structure.")
+        raise ValueError("No numeric columns found for aggregation. Please verify dataset structure.")
     else:
-        print(f"✅ Found {len(numeric_cols)} numeric columns for aggregation.")
+        print(f"Found {len(numeric_cols)} numeric columns for aggregation.")
 
     # Optionally add change features if key columns exist
     for col in ["velocity", "pitch", "yaw", "player_velocity_x", "aim_pitch", "aim_yaw"]:
@@ -83,7 +83,7 @@ def feature_engineering(df):
     labels = df.groupby("steamid")["is_cheater"].max().reset_index()
     agg = agg.merge(labels, on="steamid", how="left").dropna(subset=["is_cheater"])
 
-    print(f"✅ Aggregated dataset shape: {agg.shape}")
+    print(f"Aggregated dataset shape: {agg.shape}")
     return agg
 
 def split_data(X, y):
