@@ -1,15 +1,16 @@
               precision    recall  f1-score   support
 
-           0      1.000     1.000     1.000        15
-           1      1.000     1.000     1.000        15
+           0      1.000     1.000     1.000         2
+           1      1.000     1.000     1.000         4
 
-    accuracy                          1.000        30
-   macro avg      1.000     1.000     1.000        30
-weighted avg      1.000     1.000     1.000        30
+    accuracy                          1.000         6
+   macro avg      1.000     1.000     1.000         6
+weighted avg      1.000     1.000     1.000         6
 
 AUC: 1.000
+Accuracy: 1.000
 
 Confusion Matrix:
           Pred 0  Pred 1
-Actual 0      15       0
-Actual 1       0      15
+Actual 0       2       0
+Actual 1       0       4
