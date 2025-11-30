@@ -10,7 +10,7 @@ The **CS2CD (Counter-Strike 2 Cheat Detection)** dataset is an anonymized datase
 
 Our project is based on this dataset, but with the use of supervised machine learning models (Logistic Regression & Random Forest instead of Transformer models. We hope to see if this change results in a positive or negative outcome.
 
-Link to originally published data: (https://huggingface.co/datasets/CS2CD/CS2CD.Counter-Strike_2_Cheat_Detection#loading-dataset) 
+Link to originally published data: https://huggingface.co/datasets/CS2CD/CS2CD.Counter-Strike_2_Cheat_Detection#loading-dataset 
 
 **Important Paths:**
 - `data/no_cheater_present`: Folder containing data where no cheaters are present.
@@ -32,7 +32,7 @@ To extract the data from these files, the Python library demoparser2 was used[[g
 
 Loading of the data as recommended in the section "[Loading dataset](#loading-dataset)" returns these types as well.
 
-Link to the original parent paper: (https://ieeexplore.ieee.org/document/11114092)
+Link to the original parent paper: https://ieeexplore.ieee.org/document/11114092
 
 ### Citation
 
