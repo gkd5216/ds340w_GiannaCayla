@@ -23,6 +23,10 @@ Link to originally published data: https://huggingface.co/datasets/CS2CD/CS2CD.C
 `results/visualizations.ipynb` - This 'ipynb' file is the code that will run the full data analysis and produce multiple essential data visualizations.
 
 -- Code was altered from original source. --
+
+### Usage of modified code
+
+1. Download requirements.txt using pip install requirements.txt
   
 ### Data source
 
