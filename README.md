@@ -41,7 +41,8 @@ Link to originally published data: https://huggingface.co/datasets/CS2CD/CS2CD.C
 
 This runs the train file that trains the dataset based on the Transformer-based model (AntiCheatPT) from our Parent Paper).
 
-12. Run main.py in `Transformer`(From Parent Paper)
+13. Run main.py in `Transformer`(From Parent Paper)
+14. Run train_supervised.py in `DS340W_ProjectImplementation`(Our modified implementation)
   
 ### Data source
 
