@@ -26,7 +26,22 @@ Link to originally published data: https://huggingface.co/datasets/CS2CD/CS2CD.C
 
 ### Usage of modified code
 
-1. Download requirements.txt using pip install requirements.txt
+1. Download requirements.txt using pip install requirements.txt ``` pip install requirements.txt ```
+2. Run dataaugmentation.py in `Data Augmentation` (From Parent Paper)
+3. Run context_window_helper.py in `DataConversionPipeline` (From Parent Paper)
+4. Run context_window_shrink.py in `DataConversionPipeline` (From Parent Paper)
+5. Run pipeline.py in `DataConversionPipeline`(From Parent Paper)
+6. Run dataset.py in `Transformer/data`(From Parent Paper)
+7. Run PositionalEncoding.py in `Transformer/models`(From Parent Paper)
+8. Run Transformer_v1.py in `Transformer/models`(From Parent Paper)
+9. Run hyperparameters.py in `Transformer/training`(From Parent Paper)
+10. Run scheduler.py in `Transformer/training`(From Parent Paper)
+11. Run evaluate.py in root folder (From Parent Paper)
+12. Run train.py in `Transformer/training`(From Parent Paper)
+
+This runs the train file that trains the dataset based on the Transformer-based model (AntiCheatPT) from our Parent Paper).
+
+12. Run main.py in `Transformer`(From Parent Paper)
   
 ### Data source
 
